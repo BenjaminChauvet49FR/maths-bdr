@@ -1,0 +1,14 @@
+Cadres :
+Recherche des découpages en s19 de produit de 2 éléments parmi 1708 3388 58327 :
+
+Je devais trouver la valeur de 1204*58327 (décidément je suis maladroit, d'abord j'ai fait 1708*58327, puis 1316*58327... )
+Heureusement, cela n'a pas eu d'impact sur mes calculs car j'ai trvaillé sur les nombres 292, 329, 731 qui eux donnaient le produit escompté. Je m'en suis rendu compte au moment de calculer le découpage spécial.
+
+Houlàlà... voulant calculer AU DEPART les découpages à produits de 2 élements de 53363 (je connaissais pas la valeur de ce nombre, cest 17*43*73), 3355 et 1708 
+je suis parti sur : 3355, 1708 et 58327 (lol, j'avais nommé le fifhier "3355,1708 et 58327... alors que 61 revient deux fois). Et j'ai switché sur 3355, 1204 et 58327... et j'ai donc calculé les découpages associés à 1204*58327 (cf erreur ci-dessus) pour rien ! Allez, si, ça m'a échauffé...
+
+En plus je me suis retrouvé avec 2 fichiers différents et le même contenu deux fois...
+j'ai décidé de supprimer les données (découpages de 3355*1708 puis découpages de 1204*58327)
+J'ai sauvé les derniers qui pourront servir, d'autant que ce sont finalement les mêmes que 1316*53363. Dommage, je n'ai pas la trace de l'obtention de ces découpages. Mais on ne peut pas tout avoir...
+
+88 * 73 (dans (49,88)o(73,2077) ) ça fait 6424 pas 5984

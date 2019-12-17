@@ -1,0 +1,28 @@
+Objectif : trouver 5 combinaisons "référnce" de 3 lettres parmi 9 de manière à ce que : 
+pour chacune des 84 combinaisons possibles de 3 lettres parmi 9 (abc, abd, ... ghi), il existe l'une des 5 combinaisons référence qui ne partage aucune lettre avec.
+(exemple : abc def ghi abd efg : la combinaison beh partage une lettre avec chacune des 5 combinaisons référence, donc ce lot de 5 combinaisons est mauvais.)
+
+a-- a-- a-- Z-- Y-- : 
+aZY est condamné à échouer.
+
+abc def ghi adg X-- : X = b : bdh échoue.
+abc def ghi abd X-- : X = c : cdg échoue. X = e : aeg échoue. X = g : afg échoue.
+
+
+====
+
+Mission : Identifier les 85 découpages de abcdefghi.
+Contexte : J'ai identifié les 63 découpages des oppositions ab o (reste) et ac o (reste) (ainsi que abc et le découpage spécial). 
+Je connais les 20 découpages de (3 parmi defghi) mais il me reste à les identifier (je connais les découpages associés à def et ghi, mais ne sais pas lequel est lequel)
+
+def/ghi : A et B
+deg/fhi : C et D 
+dfg/ehi : E et F 
+deh/fgi
+
+Supposons A <=> def et C <=> deg : 
+A & C = fg o (de)(7) . Problème : on pourrait confondre (gh)(7) et (de)(7). 
+
+(def) o (deg) : fg  
+(deg) o (dfg) : ef  
+fg ef : 

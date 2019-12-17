@@ -1,0 +1,44 @@
+3 5 11 13 19 :
+On trouve ces facteurs comme présents dans les nombres bdr n <=> on ne les trouve pas présents dans les nombres bdr-2n.
+C'est dû au fait que les congruences des carrés mod ces nombres recouvrent (r-1)/2 valeurs entre 1 et r-1, et les r-1 valeurs restantes sont dans 2n.
+
+Ainsi, 13 :
+Congruence des carrés de 1 à 6 mod 13 : 1 4 9 3 12 10
+2 fois ces nombres : 2 8 5 6 11 7
+
+Au contraire, 17 : 1 4 9 16 8 2 15 13
+2 fois ces nombres : 2 8 1 15 16 4 13 9
+
+A noter que : 
+8 = 2^3 est congru à 1 mod 7.
+256 = 2^8 est congru à 1 mod 17.
+
+Ainsi, si l'ordre de 2 mod r est < r-1, c'est exhaustif. Sinon non. 
+
+Répartition des nombres :
+7 17 31 41 47 
+3 5 11 13 19 23 29 37 59 61
+
+=========
+
+Généralisation : 
+Accessible ou pas ?
+
+Vocabulaire : on dit que p, nombre premier != 2, est accessible pour b si il existe un multiple de p qui soit b-bdr. 
+Ainsi, 11,23,29 ... sont accessibles pour 7 ; 3,7,11,13,23,31,71... sont accessibles pour 17.
+
+Point important : 
+Si n^b1 = 1, alors : 
+p est accessible pour n*b1 <=> (p n'est pas congru à 1 mod 4 ET est accessible pour un seul des 2 nombres n ou b1, OU BIEN p est congru à 1 mod 4 et n'est accessible pour aucun des 2 nombres ou pour les 2 nombres)
+OU BIEN bullshit mais c'est l'idée
+
+Exemple : 
+13 est accessible pour 3 et pour 10 => 13 est accessible pour 30
+7 est accessible pour 3 et pour 10 => 7 n'est pas accessible pour 30
+
+13 est accessible pour 3 mais pas pour 5 => 13 n'est pas accessible pour 15
+31 est accessible pour 3 mais pas pour 5 => 31 est accessible pour 15
+
+13 n'est accessible ni pour 5 ni pour 7 => 13 est accessible pour 35
+19 n'est accessible ni pour 5 ni pour 7 => 19 n'est pas accessible pour 35
+

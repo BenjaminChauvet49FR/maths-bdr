@@ -1,0 +1,7 @@
+Il semble que ce soit un nombre à semi-osmoses :
+Cubes de semi-osmoses : 7 (1,23) & 23 (7,129) & 43 (...)
+Cubes d'osmoses directes : 13 (3,28) & 17 (4,49) & 37 (...)
+
+Allez, 179998 : 
+(1,5)o(2,19)=(9,409)&(29,219)
+(1,2)o(1,31)=(33,95)&(29,219) 

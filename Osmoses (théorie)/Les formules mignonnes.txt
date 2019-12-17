@@ -1,0 +1,57 @@
+Ca fonctionne aux rangs 7,8 et 10 (ainsi que 6) :
+ab o (le reste)
+ac o (le reste)
+abc o (le reste)
+donnent tous les découpages.
+
+Du coup à l'ordre 9 :
+ab o cdefghi (ab o C)
+ac o bdefghi (ac o B)
+abc o defghi (abc o D)
+a,bc,defghi :
+abc : abc o spécial (defghi)
+abd : ac(.)/bd(B)
+bcd : ab(.)/cd(C)
+abe : ac(.)/be(B)
+bce : ab(.)/ce(C) & ac(.)/be(B)
+ade : ab(.)/de(B) & ab(.)/de(C)
+bde : ab(.)/de(B)
+def : abc o def/(defghi)
+spécial : idem abc
+
+A l'ordre 10 :
+
+
+A l'ordre 11 :
+ab o cdefghijk (C)
+ac o bdefghijk (B)
+abc o defghijk (D)
+
+a : ab(.)/spécial(C)
+c : ac(.)/spécial(B)
+d : abc(.)/d(D)
+abcd : idem d.
+abde : ac(.)/bde(B) 
+bcde : ab(.)/cde(C) & (ac)/bde(B)
+adef : (ab)/def(B)& (ac)/def(C) 
+bdef : ab(.)/def(B)&(C)
+defg : abc(.)/defg/(D)
+
+----
+A l'ordre 12 :
+ab o cdefghijkl (C)
+ac o bdefghijkl (B)
+abc o defghijkl (D)
+
+spécial : (abc) o spécial (D)
+abc : (abc) o spécial (D)
+abd : (ab) o cd(C)
+bcd : (ab) o cd(C)
+abe : (ac) o be(B)
+bce : (ac) o be(B) & (ab)o ce(C)
+ade : (ac) o de(B) & (ab)o de(C)
+bde : (ab) o de(C) 
+def : (abc) o def(D)
+abcdef/ (<=> defghi/) : (abc) o def(D)
+abdefg/ (<=> cdefgh/) : (ab) o defg/(C)
+bcdefg/ (<=> adefgh/) : (ab) o defg/(C) & (ac) o befg/(B) 

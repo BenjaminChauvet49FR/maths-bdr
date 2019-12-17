@@ -1,0 +1,52 @@
+3 167 (1002) => 13 associé ?
+
+17 61 (1037) 89 (3026) => 7 associé ?
+
+
+53 => 11 associé ?
+43 67 (5762) => 11 associé ?
+
+(91+11 = 102 ; 143+175 = 318 ; 693+208=901)
+(308+2925 = 3233 ; 91+275 = 366)
+
+5 101 (1010) 229 (1145) 
+19 83 (1577)
+
+
+43 (*95 = 4085) (1290;27778) (129 = 77+52 ; 1462 = 1287+175)
+79 (*51 = 4029) (2370;51034)
+
+53 (6042;9010)
+71 (1065;22933)
+67 (1005;21641) (402 = 77+325 ; )
+
+
+
+
+Ordre 2 :
+97 (9409 = 9009+400)
+
+Objectif : ranger les facteurs en catégorie, comme d'hab' .
+
+3 ; 17 : 102 (découpage embusqué 91+11). 1037 : découpage normal.
+Oui mais 318 et 901 admettent des découpages embusqués avec "11 associé" (ie 143+175 et 693+208). Pourtant pas de découpage normal entre 2279 et 4558...
+
+FAUX POUR 3, le "13 associé !" En effet, il existe 3 nombres sous la forme (3*n(*2)) qui admettent un découpage embusqué en 77;13, un en 91;11, un en 143;7.
+318 = 143+175 ; 102 = 91+11 ; 129 = 77+52
+
+Après je crois qu'on peut se fier aux groupes "on en pre,d 2 pour obtenir un nombre bdr 1001"
+3 167 (1002)
+(*45 125) 17 61 (1037) 89 (3026)
+(*15) 43 67 (5762)
+(*25 81) 53 193 (20458)
+
+5 101 (1010) 229 (1145)
+(*75 27) 19 83 (1577)
+(*15) 71 79 (11218) 127 (10033 18034)
+(*9 625?) 149 
+
+(ordre 2 : 97,103)
+
+(embusqués : )
+(3*17 91+11, 3*43 77+52, 3*53 143+175, 17*53 693+208, 53*43 4459+99)
+(5*19 91+99, 5*71 143+567, 5*127 572+63, 19*127 3773+1053 5*149 693+52)

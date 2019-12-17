@@ -1,0 +1,65 @@
+Bon, ça me dégoûte car j'avais plein de données sur 19, notamment par rapport à son rapport aux nombres 4,5,7,11,17,23...
+
+En gros, concernant 4,5,7,11,17 : le produit de 2 ou de 3 quelconques de ces nombres est bdr-19.
+"Alliance 26180"
+20 = 19+1
+28 = 19+9
+35 = 19+16
+44 = 19+25
+55 = 19+36
+68 = 19+49
+77 = 76+1
+85 = 76+9
+119 = 19+100
+187 = 171+16
+140 = 19+121
+220 = 171+49
+308 = 289+19
+340 = 171+169
+385 = 304+81
+476 = 475+1
+595 = 19+576
+758 = 19+729
+935 = 931+4
+1309 = 684+625
+Et en ajoutant 23 (au passage, 19+4=23) ça va pas. Mais ça peut être vu comme un nombre "améliorateur" (cf. plus loin)
+43 :
+47 :
+67 :
+73 :
+Et on notera aussi qu'on peut remplacer 5 par 25, 7 par 49, 11 par 1331...
+125 = 76+49
+343 = 19+324
+1331 = 931+400
+4913 = 4864+49
+12167 = 931+11236 (logique ? Il faudra que je perce cette logique.)
+79507 = 75411+4096 (bicubique)
+...
+
+Une décomposition avec un cube :
+3500 = 3211+289 = 19+3481 (en fait produit de 28 et 125 donc c'est bon.)
+2875 = 2299+576 = 171+2704 (pour la congruence modulo 4, on ne recherche que les données impaires pour 19 - le fait qu'on ait 23 et 125, premiers entre eux, est très important)
+17500 (125*140, avec 140 qui a un nombre décomposable à proposer à 125 - qui est 28, du coup je parie sur seulement 2 décompositions)
+= 15979+1521 = 1539+
+
+
+
+Avec 19 :
+4301 = 76+4225 = 1900+2401
+--->
+23 = 19+4
+187 = 171+16
+
+
+
+---------
+
+26180 =
+
+6859+19321
+10051+16129
+15979+10201
+18259+7921
+26011+169
+C'est mystérieux qu'il n'y ait que 5 décompositions. 
+Essayons avec un autre nombre sous la forme 4*"3 autres nombres"

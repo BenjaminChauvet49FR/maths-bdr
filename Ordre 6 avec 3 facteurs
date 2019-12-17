@@ -1,0 +1,52 @@
+On le sait :
+
+195 : 15|13 7 37 / 39|5 11 41 / 65|3 17 23 / 195|1 61 79
+(Accède à aucun des trois) / (Accède à 3 5) / (Accède à 3 13) / (Accède à 5 13)
+
+231 : 21|11 8 29 / 33|7 13 19 / 77|3 5 47 / 231|1 37 67 
+(Accessible par 7 (y compris 8) uniquement / Accessible par 3 uniquement / Accessible par 11 uniquement / Accessible par 3,7,11)
+(Accède à 3 et à 11 / Accède à 11 et à 7 / Accède à 3 et à 7 / Accède à aucun des trois)
+
+255 : 15|17 8 / 5|51 11 29 / 3|85 7 37 / 255|1 19
+(Accède à 3 17) / (Accède à 3 5) / (Accède à aucun des trois) / (Accède à 5 17)
+
+546 :
+
+665 : 35|19 3~ 131 223~ / 95|7 23 71~ / 133|5 17 73 / 665|1 37~
+(~ : change la parité)
+(Accède à 5 7) (Accède à 7 19)~ / (Accède à aucun des 3) (Accède à 5 19)~ / (Accède à 7) (Accède à 5 7 19 ?)~ / (Accède à 5) (Accède à 19)~
+
+714 : 
+
+966 :
+
+1173 : 
+51|23 : 11 107 / 69|17 53 89 19~ / 391|3 31 29~ 41~ / 1173|1 13 47~ 59~ (1173+3364,3481)
+(Accède à 3 23) (Accède à 23 ?)~ / (Accède à 3 17 23) (Accède à 17 23)~ / (Accède à aucun des 3) (Accède à 3)~ / (Accède à 17) (Accède à 3 et 17)~
+
+1330 :
+
+1729 :
+19|91 31 199~ / 13|133 5~ / 7|247 11 223 / 1|1729 37~ 109~ 277 
+(Accède à 7 19) (Accède à 7 13)~ / (Accède à 7) (Accède à 7 13 19 ?) / (Accède à aucun des trois) (Accède à 13 19 ?) / (Accède à 13) (Accède à 19)~
+
+On y croit (ordre 6 et puis c'est tout) :
+945 : 35|27 19~ 89 / 135|7 11~ 43 / 189|5 13~ 41 73~ / 945|1 53~ 109 (106*121 = 12826 = 945+11881 : je suis allé le chercher ! Je me doutais que 53 était d'ordre 3 et à parité non conservée de par 106)
+(Accède à 3 7) (Accède à 5 7)~ / (Accède à 3 5) (Accède à aucun des trois)~ / (Accède à 3 5 7) (Accède à 7)~ / (Accède à 5) (Accède à 3)~
+
+1485 : 55|27 103 29~ 101~ / 135|11 59 13~ / 297|5 53 19~ 79~ / 1485|1 83~ 181 227~
+(Accède à aucun des trois) (Accède à 3 5 11)~ / (Accède à 3 5) (Accède à 11)~ / (Accède à 3) (Accède à 5 11)~ / (Accède à 5) (Accède à 3 11)~
+
+1890 :
+
+2185 :
+
+2970 :
+
+3105 :
+
+3213 :
+
+4158 :
+
+12285 :

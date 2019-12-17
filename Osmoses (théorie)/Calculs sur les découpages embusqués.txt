@@ -1,0 +1,7 @@
+Les découpages embusqués :
+ab
+(x;y)o(z,t) = (xt+-bzy;yt-+azx)
+a(xt+-bzy)2+b(yt-azx)2 = ax2t2+ab2z2y2+by2t2+ba2z2x2
+(ax2+by2)(abz2+t2) = ...
+
+(27;4)o(1,36) => (972+-28;144-+135)

@@ -1,0 +1,227 @@
+Obtenir 81 avec 17 :
+17+64
+Obtenir 21 : 
+17+4
+Une puissance de 7 s'obtient avec 17. 2401.
+2401 = 1377+1024
+OK !
+
+117 : 17+100 ; 68+49
+
+169 : 153+16
+
+De même 14641 : 3825+10816 (car 33 s'obtient)
+
+1573 : 1377+196 et 612+961
+1089 : 1088+1, 833+256
+429 : 425+4, 68+361
+
+93 : 68+25
+
+923521 : 
+969,952,986,935,1003,918,1020,901,1037,884,...833 et 1089
+907137+16384
+
+
+
+
+21 = 17+4
+33 = 17+16
+77 = 68+9
+
+42 = 17+25
+66 = 17+49
+154 = 153+1
+
+693 = 17+676
+1617 = 17+1600
+2541 = 425+2116
+
+1386 = 17+1369 = 425+961
+3234 = 2873+361 = 425+2809
+5082 = 2873+2209 = 4913+169
+
+
+
+189 = 68+121
+1029 = 68+961
+
+378 = 17+361
+2058 = 2057+1
+
+7938 = 7921+17
+43218 = ???
+
+1701 = 1700+1
+50421 = 42500+7921
+
+253 = 153+100
+506 = 425+81
+
+------
+
+273 = 17+256 = 272+1 (merci 858 ci-dessous qui m'alertait qu'il y en avait 2 alors que je n'avais pas vu la 272+1)
+429 = 425+4 = 68+361
+
+546 = 17+529 = 425+121
+858 = 17+841 = 833+25
+
+1001 = 272+729 = 425+576
+2002 = 1377+625 = 153+1849 
+
+9009 = 4913+4096 = 1088+7921 = 6800+2209 = 8993+16 (petite crainte qu'on aurait pas de 4ème mais juste à temps)
+21021 = 19652+1369 = 6137+14884 = 1700+19321 = 14297+6724 (comment j'ai pu le rater la 1ère fois ? Heureusement bonne intuition du "2x pair 2x impair)
+33033 = 31433+1600
+
+18018 = 6137+11981 = 8993+9025 = 14297+3721 = 16337+1681
+42042 = 17+42025 = 31433+10609 = 
+66066 = 17+66049 = 63257+2809
+
+
+---
+
+26 = 17+9
+169 = 153+16
+637 = 612+25 = 153+484
+2401 = 1377+1024
+
+53 = 17+36
+689 = ...
+1378 = 1377+1 = 153+1225
+
+8957 = 8228+729 = 3332+5625
+1113 = 1088+25 = 272+841
+
+10017 = 17+10000 = 8993+1024
+
+
+-------------------------
+
+Et deux intéressants :
+93093 :
+->93092+1
+->90593+2500
+->85697+7396
+->35972+57121
+->28577+64516
+->19652+73441
+->8993+84100
+->68+93025 
+(on notera : 
+-la double-fin : la fin facile (93092, plus grand nombre en 17n2 < 93093 convient) ainsi que la fin difficile(93025 convient)
+-23 et 46 comme données pour 17 ; c'est dû au fait qu'on a en face 290 et 239, et donc 290^2-239^2 = 51*529... coup de chance quand même
+-74,73,71,4 comme données pour 17. Au départ, je croyais naïvement qu'il n'y avait que ces 4 là mais c'était avant de faire un peu plus d'introspection sur les propriétés de 17.
+)
+
+713713 :
+Le plus important étant que toutes les données en 17 sont multiples de 3. Cela se démontre mathématiquement : 
+On a 3 possibilités pour les congruences de a2 et b2 mod 3 dans 17a2+b2 : a2===1,b2===0 : somme===2, a2===1,b2===1 : somme=0. a2===0,b2===1 : somme=1.
+Puisque 713713===1, seule la dernière possibilité convient.
+->707472+6241 (fin facile)
+->686817+26896
+->626688+87025
+->569313+144400
+->aaargh manquant !
+->111537+602176
+->9792+703921
+->1377+711356 (fin difficile)
+
+
+186186 :
+->173417+1369
+->153425+32761
+->134657+51529
+->85697+100489
+->28577+157609
+->10625+175561
+->????
+->425+185761 (fin difficile)
+
+1675674 :
+->1665473+10201 (fin facile)
+->1602233+73441 (1228^2 = 305^2*17-271^2 ...)
+->1581425+94249
+
+=====
+
+11693913 :
+(16 découpages ? 4 pour 5313, 1 pour 2201, mais ensuite... 1 pour 4402 et 4 pour 10626. ça fonce !)
+(11,12)o(17,20)=(220+-204,3179-+240)=(16,3419)&(424,2939)
+(11,12)o(16,31)=(341+-192,2992-+372)=(149,3364)&(533,2620)
+(11,12)o(8,65)=(715+-96,1496-+780)=(619,2276)&(811,716)
+(11,12)o(4,71)=(781+-48,852-+748)=(733,1600)&(829,104)
+(9,55)o(25,1)=(1375+-9,3825-+55)->(692,1885)&(683,1940) (/2)
+(9,55)o(19,67)=(1045+-603,3685-+2907)->(824,389)&(221,3296)
+(9,55)o(5,101)=(909+-275,5555-+765)->(592,2395)&(317,3160)
+(9,55)o(1,103)=(927+-55,5665-+153)->(436,2909)&(491,2756)
+
+Du coup la formule du nombre de découpages pour les nombres bdr 17 serait :
+2^min(d+s+pp-1,0)*2^min(pi-2,0)*bonus
+Avec : d = nb facteurs directs différents (53,149,157)
+s = nb facteurs semi-directs différents (13,89,101)
+pp = nb facteurs principaux différents à une puissance paire (9|81,49|2401,81,121...)
+pi = nb facteurs principaux différents à une puissance impaire (3|27,7|343,11,23,31...)
+bonus = 2 si d+s+pp-1 >= 0 et si pi-2 >= 0, 1 sinon
+non ?
+Essai : 188761573 : 5929 compte pour 2, 13 compte pour 1, 2449 compte pour 1 (car 2-2)
+
+117 : 2 (2^1)
+6201 : 4 (2^1)
+
+77 : 1 
+477477 : 8 je crois (le fait de rattacher les 2...)
+
+26 (~13) : 1 (2^0)
+93 : 1 (2^0)
+77 : 1 (2^0)
+7161 : 4 (2^2)
+93093 : 8 (2^3)
+
+713713 : 1 pour 13, 4 pour 54901, 2 pour bonus 
+31837 : 2 
+5929 : 2
+2449 : 1
+13 : 1
+188761573 : 4 pour ~77077, 1 pour 2449, 2 pour bonus
+
+(en fait cette formule me paraît de plus en plus vraie)
+111573 : (formule 17)
+(5,4)o(3,10)=(50+-12,255-+40)=(62,215)&(38,295)
+(4,13)o(3,10)=(40+-39,204-+130)=(1,334)&(79,74)
+98o4554 :
+(1,9)o(7,61)->(1,334)&(62,215)
+(1,9)o(13,41)->(38,295)&(79,74)
+
+======
+
+
+
+Pour qu'un nombre soit bdr 17, il faut que :
+3,7,11,23,31 : principaux
+13, 89 : semi-direct
+53, 149, 157 : direct
+
+
+n'importe quel nombre de facteurs directs * nombre pair de facteurs principaux *
+    ->si facteurs principaux pas en carré : n'importe quel nombre de facteurs semi-directs et éventuellement 2 
+    ->sinon : 
+        ->si pas 2, même parité entre le nombre de facteurs de la racine carrée des facteurs principaux et le nombre de facteurs semi-directs
+        ->si 2, parité différente
+
+Dans ce cas, nombre de découpages = 
+2^(nombre de facteurs semi-directs différents) * 2^(nombre de facteurs directs différents) *
+2^((nombre de facteurs premiers principaux à une puissance impaire différents)/2*(nfppp paire différents)) ????
+2541 : 2 découpages (21 : compte pour 1. 121 : compte pour 1)
+6201 : 4 découpages (13 : compte pour 1. 9 compte pour 1. 53 compte pour 1)
+Les voici : (4,77) (5,76) () (19,8)
+111573 : 8 découpages ? (2 pour 441, 1 pour 253) 
+188761573 : 16 découpages ? (1 pour 2449, 2 pour 5929, 1 pour 13)
+
+5929 : (3,76) (12,59)
+4898 : (13,45) (recherche exhaustive)
+31837 : (13,45)o(1,3)/2 = (45+-39,...)/2 = (42,43)&(3,178) (recherche sur 2898o26)
+(3,76)o(42,43) = (3192+-129,3268-+2142)=(3321,1126)&(3063,5410)
+(12,59)o(42,43) = 2478+-516,2537-+516=(2994,2021)&(1962,3053)
+(3,76)o(3,178) = 534+-228,13528-+153=(306,13681)&(762,13375)
+(12,59)o(3,178) = 2136+-177,10502-+612=(1959,11114)&(2313,9890)
+

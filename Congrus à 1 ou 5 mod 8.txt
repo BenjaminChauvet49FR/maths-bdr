@@ -1,0 +1,18 @@
+Truc de niche : les nombres composés === 5 [8]
+21, 69
+Nombres pour se lancer avec 69 :
+169=69+100
+1225=1104+121 (je suis allé le chercher avec 24*46...)
+625=4+621 (23*27)
+
+Remarque : nombre composé === 1 [8] comme 57 :
+121 = 57+64 (3*19)
+529 = 513+16 (27*19)
+961 = 912+49 (24*38)
+10609 = 8208+2401 (152*54)
+
+Aucun de ces nombres n'est le carré d'un nombre === 1 [4] (11,23,31,103...)
+Mauvaise langue :
+2809 = 2793+16 (57*49)
+1681 = 1425+256 (57*25)
+

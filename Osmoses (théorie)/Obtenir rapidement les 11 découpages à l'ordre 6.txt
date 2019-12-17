@@ -1,0 +1,77 @@
+
+(optimisation - tentative)
+Les 10 découpages standards : 
+
+301 o 3740 :
+(2,15)o(1,61) = (107,) & (137,)
+(2,15)o(13,23) = (139, ) & (241, )
+(2,15)o(7,53) = (1,1061) & (211,529)
+
+731 o 1540 :
+(5,16)o(1,39) = (179,) & (211,)
+(5,16)o(3,37) = (137,) & (233,)
+(5,16)o(9,1) = (139,) & (149,)
+
+(déjà 9 découpages standards ! Comment récupérer le 10ème plus le spécial ? J'ai ma petite idée... qui demande une confimation préalable !)
+
+119 o 9460 :
+(1,10)o(17,63) = (107,) & (233,) (tiens, les 2 découpages opposés à 137, )
+(1,10)o(9,89) = (1,) & (179,)
+(1,10)o(19,51) = (139,) & (241,)
+
+(je confirme qu'on retombe sur les 3 découpages non-redondants ! Je veux en venir là :
+5117 o 220 :
+(2,71)o(3,7) = (213+-14,497+-114) = (199,611) & (227,383)
+Ainsi, on a le 10ème DSt et le DSp (découpage spécial). Maintenant, il faut identifier lequel est lequel :
+2924 o 385 :
+(4,9) o (11,25) = (1,1061) & (199,611) 
+
+Ainsi il faut calculer :
+ab o cdef (6 DSt nouveaux)
+ac o bdef (3 DSt nouveaux et 3 répétés)
+abc o def (le 10e DSt et le DSp)
+abd o cef (pour identifier DSp)
+
+16 découpages => 5 répétitions (dont 2 découpages nécessaires pour identifier le spécial)
+
+(Au fait, possibilité d'associer chacune des 10 oppositions abc o def à un découpage standard ! 
+En effet, le DSt associé à abc ou def n'apparaîtra pas dans :
+ab o cdef
+ac o bdef
+bc o adef
+de o abcf
+df o abce
+ef o abcd
+(mais apparaîtra dans les 9 oppositions 2v4 restantes.)
+)
+
+
+Application : les 11 découpages de 77007700 (4,7,11,25,73,137)
+10001 o 7700 
+(20,49)o(17,47)=(107,8763)&(1773,4357)
+(20,49)o(13,67)=(703,8223)&(1977,1657)
+(20,49)o(19,29)=(351,8641)&(1511,5799)
+
+1507 o 51100
+(7,24)o(39,149)=(107,8763)&(1979,1611)
+(7,24)o(51,41)=(1511,5799)&(937,7767)
+(7,24)o(27,193)=(703,8223)&(1999,1041)
+
+110011 o 700
+(75,56) o (3,23) = (1893,2987) & (1557,5563) (110011 : obtenu par 685 o 4015)
+
+40004 o 1925
+(29,155) o (2,43) = (1557,5563) & (937,7767) (40004 : obtenu par 110011 o 44)
+
+D'où les 11 découpages : 
+(107,8763)
+(351,8641)
+(703,8223)
+(937,7767)
+(1511,5799)
+(1773,4357)
+(1893,2987)
+(1977,1657)
+(1979,1611)
+(1999,1041)
+(1557,5563) (DSp)

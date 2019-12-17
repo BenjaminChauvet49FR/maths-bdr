@@ -1,0 +1,293 @@
+
+(Comment obtenir les 85 découpages à l'ordre 9 rapidement ?)
+Indice : sur abcdef o ghi, abcghi o def et defghi o abc on a 54 découpages standards différents uniques, 3 découpages standards, et le découpage unique
+
+1 2
+3 4
+...
+17 18
+55 56
+57 s
+
+(abc)
+
+19 20
+21 22
+...
+35 36
+56 57 
+55 s
+
+(def)
+
+38 39
+40 41
+...
+53 54
+56 57
+55 s
+
+(ghi)
+
+Découpages standards en commun entre abc et def : 3
+
+DS en commun entre abc et abd : 
+
+(abc) (3311) o (le reste)
+(13,10)o(239,8371)=(111213,24677)&(106433,142743) (c)
+(13,10)o(457,8197)=(101991,194849)&(111131,30909) (c)
+(13,10)o(769,7741)=(108323,112533)&(92943,267353) (c)
+(13,10)o(797,7687)=(107901,119989)&(91961,273729) (c)
+(13,10)o(967,7307)=(104661,165779)&(85321,311919) (xD) 
+(13,10)o(1231,6509)=(96927,238967)&(72307,369147) (c)
+(13,10)o(1601,4739)=(77617,348057)&(45597,442837) (c)
+(13,10)o(1699,4039)=(35517,460043)&(69497,379263) (c)
+(13,10)o(1931,559)=(26577,471367)&(12043,482547) (c)
+(13,10)o(1933,407)=(14039,481521)&(24621,473381) (c)
+(13,10)o(1919,1091)=(5007,484903)&(33373,463083) (Ds) 
+
+(def) (3995) o (le reste)
+(13,28)o(157,7649)=(103833,175393)&(95041,252951) (C)
+(13,28)o(683,7079)=(111151,29511)&(72903,366913) 
+(13,28)o(1033,6221)=(109797,80963)&(51949,429339)
+(13,28)o(1073,6091)=(109227,94483)&(49139,435579) (C)
+(13,28)o(1193,5651)=(40059,452899)&(106867,136443) (C)
+(13,28)o(1273,5309)=(33373,463083)&(104661,165779) (xD)
+(13,28)o(1447,4381)=(97469,234741)&(16437,480077)
+(13,28)o(1583,3371)=(501,485389)&(88147,296613)
+(13,28)o(1637,2839)=(82743,324847)&(8929,483831)
+(13,28)o(1717,1721)=(25703,472287)&(70449,375911) 
+(13,28)o(1613,3089)=(5007,484903)&(85321,311919) (Ds)
+
+(abd) (1309) o (le reste)
+(6,25)o(113,13407)=(83267,322293)&(77617,348057) (c)
+(6,25)o(1239,12281)=(104661,165779)&(42711,448271) (c)
+(6,25)o(1553,11583)=(108323,112533)&(30673,466617) (c)
+(6,25)o(1653,11317)=(109227,94483)&(26577,471367) (cC)
+(6,25)o(1939,10419)=(14039,481521)&(110989,39429) (c)
+(6,25)o(2687,6543)=(27917,469893)&(106433,142743) (c)
+(6,25)o(2787,5693)=(35517,460043)&(103833,175393) (cC)
+(6,25)o(2841,5161)=(40059,452899)&(101991,194849) (cC)
+(6,25)o(3011,2781)=(58589,412779)&(91961,273729) (c)
+(6,25)o(3073,753)=(81343,331497)&(72307,369147) (c)
+(6,25)o(2127,9697)=(5007,484903)&(111357,53) (s)
+
+c : commun 3311 et 1309
+C : commun 1309 et 3995
+D : commun 3311 et 3995
+x : commun aux 3
+
+
+
+Quand on liste les 22 découpages mettant en opposition abc et defghi, on expose : 
+-le découpage spécial
+-le découpage associé à abc
+-les 20 découpages associés à def deg deh dei dfg ... ghi
+
+Ainsi :
+Après avoir mis en opposition abc, def, ghi, il reste 27 DSt (découpages standards) :
+(3^3 en fait)
+adg adh adi aeg aeh aei afg afh afi
+bdg bdh bdi beg beh bei bfg bfh bfi
+cdg cdh cdi ceg ceh cei cfg cfh cfi
+
+Possibilités :
+-calculer adg : révèle beh bei ceh cei bfh bfi cfh cfi abd : +9
+-calculer abd : révèle ceg ceh cei cfg cfh cfi
+
+--- adh adi aeg aeh aei afg afh afi
+bdg bdh bdi beg --- --- bfg --- ---
+cdg cdh cdi ceg --- --- cfg --- ---
+
+-calculer cde : révèle afg bfg afh afi
+-calculer bde : en révèle également 4
+-calculer bdh : révèle aeg ceg aei afg afi bdh : +6 ; 
+
+--- adh adi --- aeh --- --- afh ---
+bdg --- bdi beg --- --- bfg --- ---
+cdg cdh cdi --- --- --- --- --- ---
+
+-calculer beg : révèle afh adh cdh adi cdi beg : +6
+
+--- --- --- --- aeh --- --- --- ---
+bdg --- bdi --- --- --- bfg --- ---
+cdg --- --- --- --- --- --- --- ---
+
+-calculer aeh : révèle les 5 autres
+
+Bilan : abc -> def -> ghi -> adg -> bdh -> beg -> aeh
+147 apparitions de découpages standards. Où sont les 63 répétitions ?
+
+abc, def, ghi : x2 chacun (3 occurences => 2 répétitions)
+(6)
+
+
+adg et bdh ont en commun : cef cei => x1 chacun
+idem pour les 5 autres paires. (12)
+adg bdh beg aeh ont en commun : cfi => x3 
+(3)
+
+abc et adg : efh efi ehi fhi 
+idem pour les 11 autres associations
+(48)
+
+abc : seul à contenir deg, deh, dei, dgh, egh, fgh, abc
+def : seul à contenir abg, abh, abi, agh, bgh, cgh, def
+ghi : seul à contenir abd, abe, abf, ade, bde, cde, ghi
+adg : seul à contenir beh bei ceh cei bfh cfh adg
+(relation "tétraédrique" entre adg, bdh, beg, aeh : pour passer de l'un à n'importe quel autre, commuter deux a/b, d/e, g/h )
+
+abc def ghi : x2 (dans abc def ghi)
+(6)
+
+cef x2 (adg bdh ghi)
+efi	x2 (adg bdh abc)
+fhi x2 (adg beg abc)
+cfh x2 (adg beg def)
+bcf x2 (adg aeh ghi)
+bci x2 (adg aeh def)
+fgi x2 (bdh aeh abc)
+cgi x2 (bdh aeh def)
+acf x2 (bdh beg hgi)
+aci x2 (bdh beg def)
+cdf x2 (beg aeh ghi)
+dfi x2 (beg aeh abc)
+(24)
+
+cei (dans adg bdh - raisonnement similaire sur 5 autres associations)
+(6)
+cfi : x3 (dans adg bdh beg aeh)
+(3)
+
+efh ehi : (dans abc adg - raisonnement similaire en commutant e/d et h/g, puis en changeant abc par def ou ghi) 
+(24)
+
+
+Mise en pratique : 
+Pour 235607250340 j'aurais pu, en faisant en sorte que les triades soient les plus grandes possibles ( pour que les nombres à l'opposé soient plus petits) : 
+c,f,i = 7,5,4
+abc = 73*11*7 ; def = 61*17*5 ; ghi = 47*43*4
+
+======
+
+2nde tentative :
+abc cde efa ghi bdf
+Si on veut ghi : toutes les oppositions le contiennent !
+Si on veut g** : il y a forcément une triade qui ne contient aucune des 2 étoiles
+Si on veut gh* : facile
+Si on veut *** : il suffit de prendre l'opposition à ghi
+
+Moralité : bon, même si je savais pas comment les 85 découpages se présentaient, maintenant je vais pouvoir y aller à l'astuce : 
+calculer les 110 découpages (abc)o(le reste) (cde)o(le reste) (efa)o(le reste) (bdf)o(le reste)5
+
+-----
+
+Bonus : identifier les 85 triades associées aux découpages.
+Déjà identifiés :
+abc <-> def (oppositions abc et ghi)
+cde <-> abf (même remarque)
+aef <-> bcd (même remarque)
+bdf <-> ace (même remarque)
+Calculons adg =>
+bhi (déjà présent en cde et aef) <-> cef <-> afg et cdg (dans table d'origine) <-> abd
+chi (déjà présent en bdg et aeg) <-> bef <-> bdg et aeg (même remarque) <-> acd
+ehi (déjà présent en abc et bdf) <-> bcf <-> dfg et acg (même remarque) <-> aed
+fhi (déjà présent en abc et cde) <-> bce <-> deg et abg (même remarque) <-> adf
+(manquent sans g,h,i : abe, cdf, acf, bde)
+Calculons abh =>
+cdf (présent seulement en ghi) <-> abe (opposition ghi) <-> egi (opposition abh) <-> dfh et acg (oppositions abc et bdf)
+cei (opposé à dfg) <-> agh (opposition bdf) <-> bfi (opposition cde) <-> ceh (opposition adg) <-> agi (opposition bdf) <-> bfh (opposition cde) <-> (retour au point de départ avec cei)
+dgi (opposé à cef) <-> bch (opposition aef) <-> efi (opposition adg) <-> dgh (opposition abc) <-> bci (opposition aef) <-> efh (opposition adg) <-> (retour au point de départ avec dgi)
+cfi (opposé à deg) <-> beh (opposition adg) <-> ...
+fgi (opposé à cde) <-> deh (opposition abc)
+cgi (opposé à def) <-> bdh et aeh (opposition aef et bdf)
+ 
+(manquent : 
+aei <-> cgh (oppositon bdf) <-> bdi (opposition aef) )
+dhi <-> efg et bcg (oppositions abc et aef) <-> cdi (opposition efg) <-> bgh (opposition aef) <-> afi (opposition cde)
+bfg <-> ahi (opposition cde) <-> ceg (opposition bdf) <-> dfi (opposition abh) <-> egh (opposition abc) <-> aci (opposition bdf)
+bgi <-> afh et cdh (opposition cde et efa) 
+acf <-> bde  
+fgh <-> dei et abi (oppositions abc et cde) <-> cfg (opposition abi)
+cfh <-> bei (opposition adg)
+beg (tout seul)
+
+Calculons acf =>
+bgi (opposé à deh) et dhi (opposé à bce) <-> dei (opposé à bgh, chaîné) <-> beg (opposition)
+(chaînes déduites : cfh, dhi, fgh, acf)
+chaînes liées : aei <-> bfg (bdi et egh)
+aei, cgh, bdi o egh, aci, dfi, ceg, ahi, bfg
+Déduire aci = déduire tout ...
+
+======
+
+AH !
+je me suis rendu compte de ma terrible erreur : après avoir fait les tables abc, cde, efa, bdf, ghi... il m'a manqué toujours 9 découpages !
+Et je ne l'ai vu qu'après avoir calculé 75 découpages standards de 11 plus le spécial !
+Me manquaient : adg, adh, adi, beg, beh, bei, cfg cfh cfi !
+
+Calculer opposition adg pour qu'il reste après : adh adi beg cfg
+Puis opposition adh (beg et cfg opposés à resp. cfi et bfi) ;
+Calculer uniquement le découpage associé à adi
+
+Bon, sinon :
+abcd o efghi : 30 découpages... abe&cde, ace&bde, ade&bce, abf&cdf... vraiment ? (à en juger par les découpages de 235607250340...)
+efgh o abcdi : 30 autres découpages... 
+Du coup les 24 manquants ? abc abd bcd acd efg efh egh fgh (+ 16 combinaisons a|b|c|d*e|f|g|h*i)
+(opposition en def : couvre agi ahi bgi bhi cgi chi abc)
+(opposition en abg : couvre cei cfi dei dfi dhi efh) (+re chi)
+
+======
+
+abcd VS efghi :
+30 découpages
+
+(redondance avec abcd VS efghi) :
+
+abce VS dfghi :
+abf, abg, abh, abi
+acf, acg, ach, aci
+bcf, bcg, bch, bci
+ade, bde, cde
+
+abef VS cdghi 
+abg, abh, abi 
+ace, bce, ade, bde, acf, bcf, adf, bdf
+
+aefg VS bcdhi :
+abe, abf, abg,
+ace, acf, acg
+
+efgh VS abcdi :
+rien, quand on y pense !
+
+abcd VS efghi, efgh VS abcdi, les 24 manquants : 
+aei, bei, cei, dei,
+afi, bfi, cfi, dfi,
+agi, bgi, cgi, dgi,
+ahi, bhi, chi, dhi,
+abc, abd, acd, bcd,
+efg, efh, egh, fgh
+
+ai/bd o cefgh :  aei, afi, agi, ahi, bcd (& bdi, bdf, bdg, bdh, aci)
+bi/ad o cefgh : bei, bfi, bgi, bhi, acd, 
+ci/ad o befgh : cei, cfi, cgi, chi, 
+di/ac o befgh : ...
+Reste après ça : efg, efh, egh, fgh et le spécial
+
+(solution alternative) : 
+
+abci VS defgh : 
+reste après ça :
+dei, dfi, dgi, dhi, 
+efg, efh, egh, fgh,
+(spécial)
+
+(s'obtiennent tous avec defghi - dgh et def sont obtenus dans edfh VS abcdi.)
+
+Ainsi : 
+abcd VS efghi
+efgh VS abcdi
+abci VS defgh
+defghi 
+112 découpages à calculer

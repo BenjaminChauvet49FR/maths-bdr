@@ -1,0 +1,93 @@
+2 - pur
+3 - pur
+5 - semi-pur
+6 - semi-pur
+7 - pur
+10 - semi-pur
+11 - osmoses
+13 - semi-pur
+14 - semi-chanceux 2
+15 - chanceux 2
+17 - semi-chanceux 2
+19 - osmoses
+21 - chanceux 2
+22 - semi-pur
+23 - osmoses
+26 - semi-osmoses
+29 - semi-osmoses
+30 - chanceux 2
+31 - osmoses
+33 - chanceux 2
+34 - semi-chanceux 2
+35 - chanceux 6
+37 - semi-pur
+38 - semi-osmoses
+39 - chanceux 4
+41 - semi-chanceux 4
+42 - chanceux 2
+43 - osmoses
+46 - chanceux 2
+47 - chanceux 5
+51 - chanceux 6
+53 - semi-osmoses
+55 - chanceux 4
+57 - chanceux 2 
+58 - semi-pur
+59 - chanceux 9
+61 - semi-osmoses
+62 - semi-chanceux 4 ? (162)
+65 - chanceux 4 
+66 - chanceux 4
+67 - osmoses
+69 - chanceux 4
+70 - semi-pur
+71 - chanceux 7 (à suivre de près)
+73 - semi-chanceux 2
+74 - chanceux 5 (à suivre de près)
+77 - chanceux 4
+78 - semi-pur 
+79 - chanceux 5
+82 - semi-chanceux 2
+83 - chanceux 9
+85 - chanceux 2
+86 - semi-chanceux 5
+87 - chanceux 6
+89 - semi-chanceux 6
+91 - chanceux 6
+93 - chanceux 2
+94 - semi-chanceux 4 ?
+95 - chanceux 8
+97 - semi-chanceux 2
+101 - ???
+103 - ???
+105 - chanceux 2
+106 - semi-chanceux 2
+107 - chanceux 9
+109 - semi-osmose
+111 - chanceux 8
+113 - semi-chanceux 4 ? (162)
+114 - chanceux 4
+115 - chanceux 6
+118 - semi-osmose
+119 - ???
+122 - chanceux 5 (cf. 74)
+123 - chanceux 6
+127 - ???
+129 - chanceux 6 (?)
+130 - chanceux 4
+131 - ???
+133 - chanceux 2 (? 169 et 533 pour nombres composés...)
+134 - ???
+137 - ???
+139 - chanceux 9 (comme 59, 83 et 107 ?)
+141 - 
+142 - semi-chanceux 2
+143 - chanceux 10 (16807 = 8788+8019 - 168 pour me mettre sur la piste)
+145 - chanceux 4
+154 - chanceux 4
+159 - chanceux 10 (3125 = 53+3072)
+161 - semi-chanceux 4
+166 - semi-chanceux 5 (16807... et 6250)
+
+osmose chanceuse d'ordre 2 : 
+signifie que ce nombre présente plusieurs nombres tels que (2n) soit chanceux d'ordre 2. Par exemple, 35 avec 3 (36 : 1,1) 13 (676 : 3,19)...

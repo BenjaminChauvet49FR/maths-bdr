@@ -1,0 +1,57 @@
+Découpages
+55 :
+8 - pôle 4 (8-> 16 -> 64)
+7, 13, 17 - pôle 4
+56,91,104 : un découpage normal et un embusqué
+31,16 : pôle 2 
+496 : 2 découpages normaux
+
+95 :
+3 - pôle 8 (6561 : 4,71)
+11 - pôle 4 (14641 : 12,29)
+13 - pôle 8 (815730721 : 1140,26311)
+8 - pôle 8 (8->16->64->1024)
+
+264 (un pôle 8 et 2 pôles 4) : 
+1 découpage normal et 1 embusqué
+
+17424 (2 pôles 4 et 1 pôle 2) :
+2 découpages normaux et 2 embusqués
+
+8712^2 (2 pôles 2 et 1 pôle 1) :
+4 découpages
+
+32 - pôle ???
+37 - pôle ??? (21904 : 15,23 et 27;31)
+96 : 1,1 
+384 : 1,17 
+1536 : 11;7
+6144 : 35;1
+24576 : 
+98304 : 
+
+104 : 1,3 => 2704 : 3,43 & 9;11
+416 : 7;3 => 43264 : 21,37 & 93;1 
+1664 : 5;9 => 692224 : ...
+6656 : 1,81 => 
+
+296 : 3;5 => 21904 : 15,23 & 27;31
+1184 : 1,33 => 350464 : 
+4736 : 7,9 
+18944 : 
+
+
+----
+111 : 
+184 : (7;1) 
+8464 : (7,55)&(1;53) (16 est un pôle 4, donc 529 est aussi un pôle 4 => 23 est un pôle 8)
+
+Puissances de 2 :
+3->4->6->10->18
+5->8->14->26
+
+----
+
+Vocabulaire : 
+On dit que n (nombre premier != 2) est un pôle k pour b si n^k est b-bdr et ce n'est pas le cas pour une puissance inférieure de n.
+On dit que n est un semi-pôle si 2n^k est b-bdr et ce n'est pas le cas pour 2*(une puissance inférieure de n).

@@ -1,0 +1,66 @@
+Nombre sc d'ordre 6 :
+3 - 1458 : (1,37)
+19 ? - (je me base sur 361 semi-chanceux d'ordre 3 avec 3610 (3,53) et 6137 (8,21))
+23 ? - (je me base sur 5290 (3,67) et 8993 (4,87))
+31 ? - (je me base sur 9610 (9,49) et 16337 (13,36))
+43 ? - (je me base sur 18490 (3,133) et 31433 (16,93))
+
+Nombres chanceux / semi-chanceux d'ordre 3 :
+5 - 125 (1,6)
+17 - 9826 (3,95)
+53 - 297754 () (je me base sur : 530 (1,21) et 901 (3,10))
+73 - (je me base sur 365 (2,3) et 2482 (3,41))
+
+Nombres semi-chanceux d'ordre 2 :
+7 - 98 (1,3)
+59 - 6962 (7,51)
+
+Du coup, nombres bdr-89 produits de 2 nombres sc-6 :
+114 (1,5) 138 (1,7) 93 (1,2) 258 (1,13) 437 (2,9) 1178 (1,33) 817 (3,4) 1426 (3,25) 989 (1,30) 2666 (5,21)
+3 31 appartiennent à un plan
+19 23 43 à un autre
+
+Nombres tels que même doublés ils sont bdr-89 : 
+105 (1,4) 210 (1,11)
+805 (3,2) 1610 (1,39)
+3689 (1,60) 7378 (9,13)
+visiblement, tous les nombres sous la forme (sc ordre 2 * sc ordre 3 * sc ordre 6)
+3009 (5,28) 6018 (1,77) ...
+11501 (10,51) 23002 (3,149) ...
+4185 (1,64) 8370 (1,91) (logique, 7 -> 27. Fonctionne aussi avec 31->19.)
+
+189 (1,10), 378 (1,17) (ce qui est logique puisque 7 et 27 sont sc d'ordre 2)
+48013 (9,202), 96026 (25,201) (même remarque)
+
+24225 (1,151) (coup de bol pour celui-là, j'avais 48450)
+48450 (23,37)
+
+(si 5 est semi-chanceux d'ordre 3, 25 connaît une osmose aussi...)
+525 (2,13) 1050 (1,31)
+3325 (6,11) 6650 (1,81)
+
+---
+Et puis :
+(15,1), mais 10013 n'est pas bdr-89
+
+----
+
+Tentative ratée d'en faire un nombre à osmoses :
+5 9 17 53 73
+19 23 31 43 
+(note : il faut un nombre pair de nombres ===3 mod 4)
+2959785 * 582521
+
+39330 = 
+(1,1)o(2,9)=(7,187)&(11,169) et... aaaargh !
+39241 n'est pas un carré
+24289 non plus
+
+74290 = 
+(1,9)o(2,9)=
+(9,259)
+(27,97)
+73489 n'est pas un carré
+35041 n'est pas un carré
+Comme quoi, l'absence de "découpage embusqué" quand on utilise un nombre premier peut faire très mal... 
+

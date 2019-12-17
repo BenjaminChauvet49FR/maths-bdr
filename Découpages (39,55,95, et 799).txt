@@ -1,0 +1,47 @@
+39,55,95,111,183,295,583 :
+Tous ces nombres découpent de manière directe et croisée un même nombre. (55 = 39+16 = 52+3)
+Dans le cas de nombres impairs, on a :
+(avec 39 : )
+55 = 39+16 = 52+3 (4L, 13.2)
+235 = 39+196 = 208+27 (2L, 13.4)
+205 = 156+49 = 13+192 (2l, 3.4)
+649 = 624+25 = 637+12 (4l, 3.2)
+
+(avec 95 : )
+99 = 95+4 = 19+80 (2L,5.4)
+671 = 95+576 = 171+500 (4L,5.2)
+429 = 380+49 = 304+125 (2l,19.4)
+1521 = 1520+1 = 1445+76 (4l,19.2)
+
+(avec 583 : )
+(nombres premiers * 16 => ordre 4 )
+592 => 37 est d'ordre 4. (1325+44 = 1369)
+752 => 47 est d'ordre 4.
+944 => 59 est d'ordre 4.
+5296 => 331 est d'ordre 4.
+1739 = 583+1156 = 848+891 (2L,53.4)
+2183 = 583+1600 = 1908+275 (4L,53.2)
+2773 = 2332+441 = 2597+176 (2l,11.4)
+9953 = 9328+625 = 9900+53 (4l,11.2)
+
+Mais c'est parce que tous ces nombres découpeurs sont sous la forme 3[8]*5[8], d'où la retrouvaille avec le changement 2/4 de la ...
+Du coup avec 799 et 943, vus que ces 2 nombres sont 1[8]*7[8] :
+
+Avec 799 :
+53,83,89,239  (799+3025 = 3824)
+4399 = 799+3600 = 47+4352 (4L, 17.4)
+4717 = 3196+1521 = 4700+17 (2l, 47.2)
+7387 = 7191+196 = 5687+1700 (2L, 17.2)
+12865 = 12784+81 et 12032+833 (4l, 47.4) (je suis allé le chercher !)
+(note à propos de 799 : c'est quoi l'ordre de 5 exactement ? Car ni 25, ni 125, ni 625 n'ont de découpages croisés.)
+
+---
+
+Arrêtez tout, j'ai l'explication : 
+(congruence modulo 8 - découpage normal - découpage croisé 5 3 - Découpage croisé 1 7)
+[1] - l4,LI - 5.I;3.2 - 1.I ; 7.4
+[3] - lI,L2 - 5.4;3.I - 1.2 ; 7.I
+[5] - l4,LI - 5.I;3.4 - 1.I ; 7.2
+[7] - lI,L4 - 5.2;3.I - 1.4 ; 7.I
+
+===

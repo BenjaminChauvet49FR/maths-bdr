@@ -1,0 +1,141 @@
+P : parité conservée ; I : intégrité conservée ; PI : les 2 conservées ; X : les 2 changées
+
+Congrus à 1 mod 4 :
+129 => I ppour les nombres 1 mod 4, P pour les nombres accessibles par 3 ?
+189 : 5 X ; 11 I ; 19 P ; 23 I ; 31 P ; 37 IP ; 41 X ; => I pour les nombres accessibles par 7, P ceux par 3 ?
+249 : 5 I ; 11 P ; 19 X ; 23 P ; 37 IP ; 59 P ; 67 X => I pour les nombres 1 mod 4, P pour les nombres accessibles par 83 ?
+297 : 7 X ; 17 I ; 23 P ; 41 I ; 47 P ; 59 P ; => I pour les nombres 1 mod 4, P pour les nombres accessibles par 11 ?
+309 : 5 X ; 13 IP ; 23 I ; 43 P ; 59 I ; 83 I => I pour les nombres accessibles par 103, P pour les nombres accessibles par 3 ?
+493 : 7 X ; 13 IP ; 19 I ; 37 P ; 41 P ; 53 IP => Comme 685 
+513 : 11 X ; 29 I ; 31 P ; 67 P ; 83 X => 
+685 : 7 I ; 13 P ; 31 X ; 53 P ; 61 IP ; 79 X ; 101 IP => I pour les nombres accessibles par 5, P pour les nombres 1 mod 4 ? 
+817 : 7 P ; 17 IP ; 29 I ; 67 X ; 131 P ... => I pour les nombres 1 mod 4, P pour les nombres accessibles par 19 ?
+973 : 17 X ; 23 I ; 31 P ; 43 I ; 47 P ; 61 X ; 83 P ; 97 X ; => I pour les nombres accessibles par 7, P ceux par ... 139 ?
+837 : 17 X ; 53 X ; => Je sais pas...
+(élargir à 329 en ne considérant que les nombres d'ordre 3 et 6 ?)
+1177 : 17 I ; 19 P ; 31 X ; 37 IP ; 73 I => P suit 107 et pas 11....
+517 : X 13 41 / P 23 31 / I 7 79 / IP 53
+565 : X 19 / P 17 37 / I 7 83 / IP 41 61
+393 : X 31 / P 11 / I 17 / IP 13
+
+On récap :
+129 : I suit 1 ; P suit 3
+189 : I suit 7 ; P suit 3
+249 : I suit 1 ; P suit 83
+297 : I suit 1 ; P suit 11
+309 : I suit 103 ; P suit 3
+513 : I suit 1 ; P suit 3
+837 : ???
+
+
+
+Je suis sûr que ça peut se démontrer :
+(M X : multiple de X) 
+M 3 =>
+	(3/27 * 7 mod 24) => I suit (le nombre divisé par 3/27) ; P suit 3 (nombre découpeur === 5 mod 8)
+	(3/27 * 19 mod 24) => I suit 1, P suit 3 (nombre découpeur === 1 mod 8)
+	(3/27 * 11 mod 24) => I suit 1, P suit (le nombre divisé par 27)
+	(3/27 * 23 mod 24) => Ca existe d'ordre 6 ? (ou d'ordre 2 pour les 3* ?)
+
+PAS M3 =>
+	(3 mod 8 * 3 mod 8) => I suit 1, P suit l'un des deux ? (témoin : 817 et 1177) => Peut-être regroupable avec 19 mod 24
+	(1 mod 8 * 1 mod 8) => (ça existe ?) 
+	(5 mod 8 * 5 mod 8) => (ça existe ?)
+	(7 mod 8 * 7 mod 8) => (ça existe ?)
+	(7 mod 8 * 3 mod 8) => I suit (7 mod 8), P suit (3 mod 8) (témoins : 517,973) => regroupable avec 7 mod 24
+	(5 mod 8 * 1 mod 8) => I suit (5 mod 8), P suit 1 ? (témoins : 493, 565, 685)
+
+
+
+Congrus à 3 mod 8 :
+Cas simple - multiple de 3 :
+267 : (4 I) ; X 23;29;41;59 / I 67;73;
+
+
+Congrus à 7 mod 8 :
+	Multiples de 3 : 
+	87 : 8;11;17;47;89;101;... / 7;13;67;109...
+	135 : 8;17;23;... / 19;31;...
+	
+-----
+
+110 : 10|11 19 29 61 / 22|5 3 37 53 / 55|2 7 17 / 110|1 31 71 89 => Accède à 5 & 11 / Accède à aucun des 2 / Accède à 11 seulement / Accède à 5 seulement
+170 : 10|17 3 73 97 / 34|5 29 31 61 / 85|2 13 / 170|1 19 => Accède à aucun des 2 / Accède à 5 seulement / Accède à 17 seulement / Accède à 5 et 17 
+(170 m'a mis sur la piste : sur le nombre 110 j'avais suspecté des choses avec les nombres congrus à 1 mod 4 mais je n'avais pas déduit)
+174 : 6|29 5 / 58|3 19 37 43 / 87|2 17 41 / 174|1 7 => Accède à 3 & 29 / Accède à aucun des 2 / Accède à 3 / Accède à 29
+182 : 14|13 3 101 / 26|7 31 41 47 73 97 / 91|2 11 37 / 182|1 23  => Accède aux 2 / Accède à 7 uniquement / Accède à aucun des 2 / Accède à 13
+222 : 6|37 / 74|3 / 
+270 : 10/27 13 / 54|5 11 29 / 135|2 17 23 / 270|1 31 => Accède à aucun des 2 / Accède à 3 et 5 / Accède à 3 / Accède à 5
+318 :
+366 : 6|61 37 43 / 122|3 5 83 / 183|2 17 23 / 366|1 103 => Accède à aucun des 2 / Accède à 3 et 61 / Accède à 3 / Accède à 61
+370 : 10|37 7 / 74|5 29 31 61 / 185|2 17 43 / 187|3 11 41 => Accède à 37 / Accède à 5 / Accède à aucun des 2 / Accède à 5 et 37
+378 : 
+430 : 10|43 13 67 / 86|5 19 / 215|2 7 73 / 430|1 41 => Accède à aucun des 2 / Accède à 5 et 43 / Accède à 43 / Accède à 5
+670 : 67|10 37 / 134|5 11 61 / 335|2 7 97 113 137 / 670|1 71 => Accède à aucun des 2 / Accède à 5 et 67 / Accède à 67 / Accède à 5
+702 : 26|27 29 / 54|13 19 37 109 / 39|2 / 78|1
+814 : 22|37 5 / 74|11 197 / 407|2 17 79 / 814|1 47 71 => Accède à aucun des 2 / Accède aux 2 / Accède à 11 / Accède à 37
+826 : 14|59 83 89 97 / 118|7 5 / 413|2 23 37 109 / 826|1 103 => Accède aux 2 / Accède à 7 / Accède à 59 / Accède à 7 et à 59
+918 : 34|27 / 54|17 / 459|2 / 918|1 :
+942 : 6|157 43 / 314|3 11 / 471|2 23 41 / 942|1 31 => Accède à aucun des 2 / Accède à 3 et 157 / Accède à 3 / Accède à 157
+1558 : 38|41 71 / 82|19 11 / 779|2 23 / 1558|1 37 => Accède à 2 et 41 / Accède à 
+1978 : 46|43 / 86|23 / 989|2 / 1978|1 => 
+
+=====
+Analyse : 
+=====
+Ordre 6 avec 2 facteurs max sauf 2 (et potentiellement 27) :
+35
+51 
+87 
+110 
+115 
+123 
+129 
+170 
+174 
+182
+187 
+189 
+222
+235 
+237
+246 
+247 
+249 
+267
+270 
+297 
+309 
+318 
+366 
+370 
+378 
+393 
+403
+430 
+473
+493 
+513 
+517 
+565
+610 
+670 
+682
+685 
+702 
+814 
+817 
+826 
+837 
+918 
+942 
+973
+993 
+1090
+1222
+1258
+1558 
+1593 
+1978
+
+=====

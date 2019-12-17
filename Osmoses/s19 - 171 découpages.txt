@@ -1,0 +1,133 @@
+171 découpages de quel nombre ?
+Eh bien de... 3227496580*10001, soit : 32 278 193 296 580
+
+(oui, le nombre 131 présente également une osmose pour 19 mais j'ai préféré la sauter puisque 73*137 = 10001).
+
+Alors par où commencer ?
+J'ai émis l'hypothèse que pour avoir 171 découpages, il y en aurait 45 relatifs aux produits de 2 facteurs (ab, ac, ad... dans abcdefghij) et 126 relatif aux produits de 4 facteurs (abcd, abce...)
+Mais ce n'est que pure supposition !
+
+Si on fait un 4 v 6, comment s'en sortirait-on ? Sur les 66 découpages qui en ressortiraient...
+
+Allez, assez tourné autour du pot, tentons notre chance !
+
+Enfin rapidement... façon de parler !
+
+abcde o fghij :
+a(5) o f(5) = abcde/ & fbcde/
+50 découpages
+
+(
+abcdf o eghij :
+on retrouve : 
+abcdg/ abcdh/ abcdi/ abcdj/ 
+abcef/ abdef/ acdef/ bcdef/
+)
+
+abcfg o dehij :
+on retrouve :
+abcdf/ abcdg/ abcef/ abceg/
+
+Les abc manquants : 
+abchi abchj abcij
+
+Les ab, ac et bc manquants : 
+abdfh abdfi abdfj
+abefh abefi abefj
+abdgh abdgi abdgj
+abegh abegi abegj
+
+
+
+-------
+ERRATUM : 
+a(5) o f(5) donne fbcde/ et af . Ainsi :
+abcde o fghij : 25 découpages "5" et 25 découpages "2".
+abcfg o dehij : 
+Les découpages "2" qu'on retrouve sont : ah ai aj bh bi bj ch ci cj df dg ef eg (donc 12 nouveaux)
+Les 8 restants sont : ab ac bc de fg hi hj ij 
+Les découpages "5" qu'on retrouve sont : abcdf/ abcef/ abcdg/ abceg/ (donc 21 nouveaux)
+Les découpages "5" restants :
+Avec abc : 
+abcde/ abcfg/ 
+abchi/ abchj/ abcij/
+
+Avec ab : 
+abdfh/ abdfi/ abdfj/ abefh/ abefi/ abefj/ abdgh/ abdgi/ abdgj/ abegh/ abegi/ abegj/ 
+abdhi/ abdhj/ abdij/ abehi/ abehj/ abeij/ abfhi/ abfhj/ abfij/ abghi/ abghj/ abgij/ 
+abhij/ 
+Avec ac : 
+(25 autres en remplaçant ab par ac)
+Avec bc :
+(25 autres en remplaçant ab par bc)
+
+defg o abchij :
+abcde/ 
+La première ligne (abdfh/ ...)
+de fg
+
+abc o defghij : 
+
+
+
+(abdfh o cegij :
+Sont dévoilés : 
+abdfi/ abdfj/ abefh/ abefj/ abdgh/ 
+abdhi/ abdhj/ abfhi/ abfhj/ 
+acdfh/ (ouais enfin...))
+
+
+====
+
+abcd o efghij (66 découpages)
+aefg o bcdhij
+ahij o bcdefg
+"2" : Manquent (bcd)(efghij)
+"5" : Manquent 27 découpages : a(2 parmi (2 parmi(bcd),2 parmi(efg),2 parmi(hij))
+abcef abdef acdef
+abceg abdeg acdeg
+abcfg abdfg acdfg
+(puis encore 2x)
+
+abcde vs fghij :
+présents : 
+abcef abceg abdef abdeg acdef acdeg 
+afghi afghj afgij
+("2" : manquent be, ce, de)
+
+abcef vs dghij :
+présents : abceg abcfg acdef adgef
+
+abceh vs dfgij :
+présents : abcef abceg abchi abchj afgij
+
+abce vs dfghij :
+présents : abdfg acdfg abdhi abdhj abdij acdhi acdhj acdij aefhi aefhj aefij  
+
+abeh vs cdfgij :
+présents : abcfg abcij abdfg abdij aefcd aefij aegcd aegij ahicd ahifg ahjcd ahjfg
+
+bcde vs afghij :
+présents : abcfg abdfg acdfg abchi abchj abcij abdhi abdhj abdij acdhi acdhj acdij (aucun ae) 
+
+bcef vs adghij :
+présents : abchi abchj abcij aefhi aefhj aefij abdeg abdfg acdeg acdfg
+
+bceh vs adfgij :
+présents : abc(fg|ij) a(b|c)de(f|g) a(b|c)dh(i|j) ae(f|g)h(i|j) ("étage" bcd efg : 5/9. "étage" bcd hij : 5/9. "étage" efg hij : 4/9.)
+(manquent 13 : abce(f|g) abch(i|j) a(b|c)d(fg|ij) ae(f|g)ij ah(i|j)fg afgij)
+
+abc vs defghij :
+"5" manquent que ad(b|c)(2 parmi(efg),2 parmi(hij))
+
+abe bs cdfghij : 
+Ne manquent que acd((2 parmi efg)|(2 parmi hij)) et a(2 parmi efg)(2 parmi hij))
+
+bce vs adfghij :
+Manquent a(b|c)de(f|g) et a(2 parmi bcd)(2 parmi hij)
+
+beh vs acdfgij :
+Manquent ... tous sauf a(2 parmi cd,fg,ij)
+
+bcd vs aefghij : 
+Manquent a(2 parmi bcd)((2 parmi efg)|(2 parmi hij))

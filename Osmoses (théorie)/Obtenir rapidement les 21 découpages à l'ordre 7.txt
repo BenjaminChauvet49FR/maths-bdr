@@ -1,0 +1,73 @@
+Calculer 20 paires de découpages :
+ab o (le reste)
+ac o (le reste)
+de o (le reste)
+df o (le reste)
+
+En fait il y a plus rapide avec 15 paires de découpages :
+
+abc o defg  
+abd o cefg
+acd o befg
+bcd o aefg
+efg o abcd
+
+30 découpages => 9 répétitions
+
+
+
+====
+
+Autre question : y'a-il moyen d'associer les 21 découpages au 21 paires de facteurs ab, ac, ad... ?
+Analyse rapide en regardant les découpages de 52909780 :
+On aurait un unique découpage commun entre les oppositions abcd o efg et abef o cdg. 
+(d'autant qu'on en a 3 en commun entre abcd o efg et abce o dfg .)
+Cela viendrait-il de là ?
+On aurait genre 20 <=> (303,7153) et pour les deux autres : 55 et 44 <=> 1467,3467 et 1667,333 ?
+Je vais essayer et je reviens !
+
+Ah, je reviens déjà avec un premier paragraphe très intéressant que j'avais laissé : 
+
+(1667,333) (1467,3467) : quelle paire donne ces 2 découpages ?
+1567+-100,1900-+1567
+(100,1567) (1,1) (20 VS 2645489)
+(303,7153) (1667,333) =>
+(985+-682) (3743-+3410) => (197,682) (1,5) (1202495 VS 44)
+(303,7153) (1467,3467) => sans analyser, je parie que c'est (961996 VS 55)
+En analysant : (885+-582,5310-+1843). Tiens donc... (1,6) VS (97,885) 
+
+
+En fait en faisant l'opposition abcd o efg, on aurait les découpages suivants ?
+ab o cd
+ac o bd
+ad o bc
+Ouais, ça semble vraiment ça ! (essai avec l'opposition 6545 et comparaison aux oppositions 6020, 10340, 9460, 3740, 1540,240499)
+
+
+En plus, les oppositions abcde o fg donnent :
+af & ag, bf & bg, ... et dans chaque paire le facteur commun aux étiquettes est le facteur spécifique dans le découpage issu de abcde. (eg dans 26180 o 2021, on obtient les découpages associés à 172 et 188 grâce au découpage de 26180 associé à 4, ie 19,139)
+
+
+Essayons de les identifier rapidement : 
+abcde o fg : af & ag, bf & bg, cf & cg,
+abcdf o eg : ae & ag, ...
+Bref, identifiés les (a|b|c|d).(e|f|g), ef, eg et fg.
+Manquent ab,ac,ad,bc,bd,cd (qui peuvent être obtenus grâce à abcd o efg btw) ; il suffit ensuite de faire l'opposition abcd o efg (pour les 6 découpages restants) et bcdef o ag (pour déduire ab,ac,ad puis les 3 autres)
+
+Total : 
+2 listes complètes identifiés d'ordre 5 identifiées  o un découpage d'ordre 2
++ 3 découpages d'ordre 4 o 2 découpages d'ordre 3
++ 3 découpages identifiées d'une liste d'ordre 5 
+
+Mieux que ça :  en identifiant les 3 découpages à l'ordre 4, on a juste à lever les 3 doutes (ab & cd), (ac & bd), (bc & ad) 
+2 listes complètes identifiés d'ordre 5 identifiées  o un découpage d'ordre 2
++ 3 découpages d'ordre 4 o 2 découpages d'ordre 3
++ 3 identifications stratégiques avec des découpages connus
+
+--------
+
+Formule mignonne (et qui a marché pour 261826180) :
+ab o cdefg
+ac o bdefg
+abc o defg
+

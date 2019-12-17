@@ -1,0 +1,42 @@
+Rappel s110 :
+22/5 3 37 53
+11/10 19 29 61
+55/2 7 17
+110/1 31
+(accède à aucun des 2 / à 5 et à 11 / seulement à 11 / seulement à 5)
+
+On va donc calculer : 
+10013 * 1113 * 65453 * 2
+
+On va procéder ainsi : 
+6466 o le reste [110,1]
+4514 o le reste [110,1]
+119621 o 12195834 [10;11]
+
+----
+12195834 [10;11] :
+899 [10;11] o 13566 [110,1] :
+(6;7)o(5,104) = (239;1028)&(1009;428) (21/646)
+(6;7)o(1,116) = (619;872)&(773;752) (51/266) 
+(6;7)o(11,16) = (751;772)&(943;548) (114/119) 
+(Il a été décidé qu'au moins l'un des 2 nombres dans l'opposition devait avoir un découpage intègre par 110 pour simplifier,
+de préférence celui qui est découpé plusieurs fois ; 
+les nombres associés (21/323, etc) seront multipliés par 2 ou pas afin d'être cohérent avec 11,10 ou 110,1)
+
+589 [10;11] o 20706 [110,1] =>
+(7;3)o(5,134) = (773;752)&(1103;52) (51/406)
+(7;3)o(11,86) = (239;1028)&(965;512) (21/986)
+(7;3)o(13,46) = (107;1048)&(751;772) (174/119)
+
+17081 [110,1] o 714 [10;11] :
+(2,129)o(1;8) : (47;1052)&(305;1012)
+20026 [] o 609 [110,1] : (37;24) o (2,13) = (47;1052)&(1009;428)
+(on verra bien combien de temps ce parti pris de conserver les brackets dans les 2 séries d'oppositions de 3 découpages ainsi que de distribuer des facteurs 2 seront viables)
+
+
+----
+
+
+
+
+----

@@ -1,0 +1,31 @@
+(à l'origine avec -racines en ascension-)
+1
+*2*
+1,s2
+*4*
+2,1
+2,s2
+*7*
+*8*
+(9)
+(10)
+3,s2
+(12)
+3,2
+*14*
+*15*
+(16)
+4,1
+(18)
+1,3s2
+(20)
+*21*
+(22)
+*23*
+(24)
+(25)
+(26)
+(27)
+
+(10) : (3,1) pas d'intérêt car 10^2 = 64+36, essentiellement le double de 5.
+(22) : pas d'intérêt car multiplication des coefs de 11 par s2.

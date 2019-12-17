@@ -1,0 +1,103 @@
+Les 8 découpages spéciaux : 
+sa sb sc sd se sf sg sh
+
+Les 35 découpages standards : 
+abcd/efgh
+abce/dfgh
+...
+afgh/bcde 
+(Bref les 35 oppositions. )
+
+
+1540 vs 2095777 :
+(1,39)o(332,39)=(12948+-39,6308-+1521)=(12919,7829)&(12987,4787)
+(1,39)o(288,721)=(11232+-721,28119+-5472)=(10511,33591)&(11953,22647)
+(1,39)o(108,1369)=(4212+-1369,53391+-2052)=(2843,55443)&(5581,51339)
+(3,37)o(332,39)=(12284+-117,18924+-1443)=(12167,20367)&(12401,17481)
+(3,37)o(288,721)=(10656+-2163,26677+-16416)=(8493,43093)&(12819,10261)
+(3,37)o(108,1369)=(4107+-3996,50653+-6156)=(111,56809)&(8103,44497)
+(9,1)o(332,39)=(351+-332,56772+-39)=(19,56811)&(683,56713)
+(9,1)o(288,721)=(6489+-288,49248+-721)=(6201,49969)&(6777,48527)
+(9,1)o(108,1369)=(12321+-108,18468+-1369)=(12429,17099)&(12213,19837)
+
+2380 vs 1356091 :
+(3,47)o(85,1104)=(3995+-3312,51888+-4845)=(683,56733)&(7307,47043)
+(3,47)o(195,796)=(9165+-2388,37612+-11115)=(11543,)&(6777,)
+(3,47)o(267,40)=()
+(9,29)o(85,1104)
+(9,29)o(195,796)
+(9,29)o(267,40)
+(11,9)o(85,1104)
+(11,9)o(195,796)
+(11,9)o(267,40)
+
+(en fait j'avais déjà fait le travail auparavant !)
+(c'est pas si shifté que ça car on a échangé un 5 et un 7 avec 56588o57035, et on constate qu'on retrouve les 18 découpages parmi les 35 ci-dessus)
+A ce propos : si on compare les 9 découpages avec les 9 de 56588o57305, on constate que chacun d'eux se retrouve une fois et une seule dans une même paire. 
+(on retrouve la paire 7001 et 7471 avec la paire 11553 et 7471)
+
+
+Bref :
+De abcd o efgh à abce o dfgh => 27 découpages uniques sur 36 calculés
+De abcd o efgh à abef o cdgh => 27 découpages uniques également sur 36 calculés
+abc o defgh : 5 paires de découpages (puisque defgh a 5 découpages).
+Chaque paire est constituée : d'un découpage standard et du découpage spécial associée à un facteur (d,e,f,g,h). 
+On peut considérer qu'une paire est associée à l'un des 5 facteurs dans cette opposition.
+
+De abc o defgh à def o abcgh => le découpage standard de la paire associée à g dans l'opposition (abc o defgh) est associée à h dans (def)o(abcgh) et inversement.
+Peut-on dire qu'on a là deux DSt abcg/defh et abch/defg ?
+(afin d'établir une bijection logique entre les 35 oppositions 4v4 et les 35 DSt)
+
+Dans ce cas, l'opposition abc o defgh comporte bien sûr :
+->abcg/defh
+->abch/defg
+Mais aussi :
+abcd/efgh
+abce/dfgh
+abcf/degh
+
+(dorénavant on dira indifféremment Dabcg ou Ddefh pour désigner abcg/defh. Prendre garde au fait que Dabcg = Ddefh dans le cadre de la désignation des découpages standards !)
+Au fait que donne abcd o efgh avec cette opposition ?
+
+abc o defgh => abcd o efgh (basé sur 48739 o 66220 => 194956 o 16555)
+Eh bien TOUS les découpages sont présents 2x. Ainsi, pas de Dabcd, Dabce, Dabcf, Dabcg, Dabch dans abcd o efgh.
+Mais alors ça veut dire aussi...
+pas de découpage Dabde, Dabdf, ...
+Y'a-t-il exactement 18 découpages avec 2 facteurs de abcd et 2 facteurs de efgh ? Eh bien oui, car :
+2 facteurs de abcd : 6 possibilités (ab, ac, ad, bc, bd, cd)
+2 facteurs de efgh : 6 possibilités aussi.
+MAIS comme chaque découpage est compté deux fois de la sorte (le découpage Dabef est le même que Dcdeh), il convient de diviser par 2. 
+6*6/2 = 18 . CQFD.
+
+Ainsi on pourrait avoir : 
+abcd o efgh : 18 DSt
+abcg o defh : 9 autres DSt
+abc o defgh : 5 DSt absents de ci-dessus + les 5 DSp (possibilité d'identifier les couples (DSt,DSp) dès que chaque D de defgh est identifié à son facteur)
+def o abcgh : Les 3 DSt qui manquent + les 3 DSp (idem)
+PUIS IL RESTE à identifier :
+abcd vs sd, abce vs se, abcf vs sf
+adef vs sa, bdef vs sb, cdef vs sc
+
+aceg 
+
+Grâce à abcef o dgh, possibilité d'obtenir sa,sb,sc,se,sf. Quant à 
+
+Et s'il en était de même à l'ordre 10 ?
+
+-----
+
+Formule mignonne :
+ab o cdefgh 
+ac o bdefgh  
+abc o defgh  
+Groupes : a,(b,c),defgh
+
+a : ac(.) o spécial(bdefgh)
+b : idem
+d : abc(.) o d(defgh)
+abcd/ : abc(.) o d(defgh)
+abde/ : ac(.) o bde/(bdefgh)
+bcde/ : idem abde/
+adef/ : ac(.) o def/(bdefgh)
+bdef/ : ab(.) o def/(cdefgh)
+defg/ : idem d

@@ -1,0 +1,92 @@
+Tout a commencé avec 949
+945+4
+420+529
+
+ENsuite j'ai trouvé :
+781 :
+105+676
+420+361
+C'était trop fort car 105 et 420 étaient les deux seuls nombres sous la forme 105*n2 inférieurs à 781.
+Mais j'ai trouvé encore plus fort avec 589 :
+105+484
+420+169
+
+Bien entendu, il ne m'a pas fallu trop de temps avant de voir que c'était bon pour :
+121 : 105+16
+169 : 105+64
+361 : 105+256
+961 : 945+16
+5041 : 945+4096
+5329 : 2625+2704
+
+Aussi, j'ai vu :
+1681 : 1680+1
+1849 : 1680+169
+2809 : 105+2704
+
+Et j'ai été interpellé par :
+5146 :
+105+5041
+5145+1
+J'en ai déduit que 2573 n'était pas un nombre premier. Et en effet 2573=31*83.
+Du coup c'était bon pour 6889 : 6720+169
+Mais au fait, si c'était bon pour 31*quelque chose, c'était aussi bon pour 19*ce quelque chose ?
+J'ai également été interpellé avec 5434 et là c'est jackpot : 105+5329,945+4489,2625+2809,5145+289
+Du coup avec 8866 (on remplace 19 par 31) :
+945+7921,2625+6241,5145+3721,8505+361
+Et c'est pas tout : 3901 = 3780+121,420+3481 (du coup, )
+Tiens soi-dit en passant :
+6721 = 6720+1 = 2625+4096 = 1680+5041 = 945+5776 (38 et 47 avec 143)
+
+Et la recherche des multiples de 53 :
+105+1=106... => 105+2704 = 2809
+Du coup je l'ai fabriqué artificiellement :
+105+24964 (158^2, === 53 à 1²) = 25069
+Du coup du coup :
+25069=105+24964=23625+1444=420+24649=20580+4489
+
+
+1066=945+121=105+961
+26<=>41
+5434<=>8569
+8569=8505+64=8464+105=1680+6889=6720+1849
+
+946 qui "est bon"
+53*2<=>53*473
+226 qui "est bon"
+53*2<=>53*113
+5989=3780+2209=2625+3364
+7261 (53*137)
+7261 = 3780+3481 = 5145+2116
+
+
+Sinon : 8989 = 8505+484=???
+7921=
+10201=
+
+=======
+
+15 et ces histoires :
+136 : 15+121,135+1
+184 : 15+169,135+49
+376 : 375+1,15+361
+424 : 375+49,135+289
+616 : non, 77 n'est pas premier
+664 : 375+289,135+529
+856 : 735+121, 841+15
+904 : 735+169, 375+529
+1096 : 135+961, 735+361
+1144 : non, 143 n'est pas premier
+1336 : 1215+121, 375+961
+1384 : 1215+169, 15+1369
+1576 : 1215+361, 735+841
+1624 : non, 203 n'est pas premier
+1816 : 1815+1, 135+1681
+1864 : 1815+49, 15+1849
+1976 : non premier
+2024 : non premier
+Etc...
+
+
+
+Double fin et une puissance : 3379 = 3375+4 = 15+3364

@@ -1,0 +1,95 @@
+7 :
+8 et 16 ==> 32
+s7,1 et s7,3 ===>
+(s7*s7-1*3),(s7*1+s7*3) : 7-3,s7*4 : 4,4s7
+(s7*s7+1*3),(s7*1-s7*3) (ou l'opposé) : 7+3,s7*2 10,2s7
+
+Il faut donc prendre :
+x1,y1sb et x2,y2sb ===>
+x1x2-y1y2b,(x1y2+x2y1)sb OU x1x2+y1y2b,(x1y2-x2y1)sb
+Notons A,B,C,D resp. x1x2, y1y2b, x1y2,x2y1. (B est la seule expression avec b). On obtient :
+A-B,C+D d'une part. 
+A+B,C-D d'autre part.
+Par hypothèse :
+->b est impair
+->x1 et y1 sont impairs (afin d'avoir x1²+y1²b pair)
+->x2 et y2 sont impairs
+(A+B) et (A-B) sont pairs mais seuls l'un d'eux est multiple de 4 (car la distance est 2B et B est impair)
+Idem pour C+D et C-D
+Ainsi, parmi les duos A-B,C+D et A+B,C-D, seul l'un d'eux au plus ...
+
+
+============
+(pause !)
+3 et s7 pour 64, 23s7 et 67 pour 8192 : obtenir pour 131072 :
+483 et 67, 201s7 et 23s7
+483-67 = 416... non.
+(483+67)/2 = 275
+(201-23)s7/2 = 89s7
+131072 = 275²+7*89²
+
+524288 :
+181 et s7 pour 32768, 1 et 3s7 pour 64 :
+181 21, 543s7 s7 :
+(181+21)/2=101, (543-1)s7/2=271
+524288=101²+7*271²
+
+2097152 :
+ 
+181, s7 => 32768
+9, 5s7 => 256
+1629 35 905s7 9s7
+(1629-35)/2
+(905+9)/2 
+
+A noter que si on avait pris les signes opposés on aurait eu 1629+35 et 905-9 ce qui correspond à 128² * l'obtention de 512 (avant réduction)
+
+33554432 : 5197 et 967s7
+
+==============
+
+Parmi les duos A-B,C+D et A+B,C-D, seul l'un d'eux au plus comporte deux multiples de 4. En fait, exactement l'un d'eux en comporte deux. Mais comment le prouver ?
+Facile :
+Si A===1[4] : x1 et x2 sont === [4] (à 1 ou à 3).
+	Si B===1[4] (rappel : B=7y1y2) : alors y1 et y2 !== [4]
+		A-B ===0 [4] et C+D = x1y2+y1x2 === (y2+y1) [4] ou 3(y2+y1) [4] ===0 [4] (car y2 === 1 et y1 ===3 ou l'inverse)
+		A+B ===2 [4] et C-D = x1y2-y1x2 === (y2-y1) [4]	ou 3(y2-y1) === 2 (car y2 !== y1 et donc y2-y1 ===2 [4])
+	Si B===3[4] 
+		Même raisonnement en remplaçant A-B par A+B et C+D par C-D avec au passage y1===y2 [4]
+Si A===3[4] : x1 et x2 sont !== [4]
+	Si B===1[4] : Alors y1 et y2 !==[4]
+		A+B ===0 [4] et C-D [4] === x1y2-y1x2 ...
+			Si x1===y2 [4] :  1-1 (car on a x2 !==x1, y2!==y1 et donc x2===y1 puisque les 4 variables ne peuvent prendre que 2 valeurs [4])
+			Sinon : x1y2 === 3 [4], y1x2 === 3[4]et on a également 3-3
+		A-B === 2 et C+D ===
+			Si x1===y2 alors y1===x2 et x1y2+y1x2 === 2 
+	Si B===3[4] : x1 et x2 sont === [3]
+		Même raisonnement en remplaçant A+B par A-B et C-D par C+D
+
+
+Chaîne pour 7 :
+8 : s7,1
+16 : s7,3
+32 : s7,25
+64 : 3s7,1
+128 : s7,11
+256 : 5s7,9
+512 : 7s7,13
+1024 : 3s7,31
+2048 : 17s7,5
+4096 :
+8192 : 
+16384 :
+32768 : s7,181
+
+
+Chaîne pour 15 : 
+
+
+Chaîne pour 23 :
+32 :
+256 :
+2048 :
+16384 :
+131072 :
+1048576 : 45s23, 1001	

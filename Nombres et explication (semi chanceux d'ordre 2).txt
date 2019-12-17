@@ -1,0 +1,36 @@
+N'empêche...
+Si 2a^2 et 2b^2 sont bdr, alors comment se fait-il que ab et 2ab sont bdr ? (avec a^b=1...)
+
+Tentative de réponse : 
+2a (m,n) (par k impair) :
+a^2 (mn, (n2-m2k)/2)
+Pour 23 : 232 (3,5) ; 13456 (15,91)
+
+a (m,n) (par k) :
+a^2 (2mn,n2-km2)
+
+
+Exemple avec 17 :
+18 : 1,1
+98 : 1,9
+
+441 : (5,4) (4,13)
+Alors : 
+Cas 1 : mn=5;n2-17m2=8. On aboutit assez facilement à m=1,n=5 pour 42.
+
+Cas 2 : mn=2,n2-km2=13. On aboutit assez facilement à m=1,n=2
+
+
+
+
+Exemple avec 34 (attention, ça va envoyer) :
+1682 : 7,4
+1058 : 1,32
+Alors : 
+442889 : (224+-4,238-+128)/2 = (110,183) (114,55)
+Découpage 1 : mn=55... ou 57 ? n2-34m2 = 183... ou 55 ?
+Supposons mn = 55. Incompatible avec le 2nd coefficient.
+Supposons mn = 57. On trouve m=3, n=19 compatible.
+Découpage 2 : mn=110, n2-34m2=183.
+8 possibilités (1,110) (2,55) (5,22) (10,11) et les échanges... c'est (5,22) qui convient pour le 2ème coefficient.
+D'où 667 : 3,19 et 1334 : 5,22

@@ -1,0 +1,14 @@
+C'est un peu touffu mais concernant le nombre 14 j'ai repéré plein de choses :
+3 5 13 19 :
+-le produit de deux de ces nombres est bdr-14. (15 = 14+1 ; 247 = 126+121)
+-2* un de ces nombres au carré est bdr-14 (décomposition non primaire bien sûr) : 18 = 14+4...
+mais l'une des compétences notables est que le nombre à la puissance 4 est bdr-14. (selon le principe du 2n=>n2).
+3705 : 4 décompositions en bdr-14 (224+3481, 896+2809, 2744+961, 3584+121) 
+
+A cela viennent s'ajouter 59 et 61.
+Notamment : 
+72865 (= 5*13*19*59) connaît la double-fin : 504+72361, et 72576+289, également 60984+11881 (nez creux !), 40824+32041 (en fait il fallait chercher parmi les multiples de 3, voilà pourquoi je l'ai eu assez vite)
+205143 (=3*19*59*61)
+
+Sinon, 23 = 14+9
+79 = un peu spécial, ne se combine pas avec un nombre simple, mais 711 = 686+25 = 350 + 361. 1975 = sûrement quelque chose

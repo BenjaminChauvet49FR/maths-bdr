@@ -1,0 +1,38 @@
+
+237 pour 1001 (53 -> 948)
+Aussi 978 mais OSEF.
+
+1001 BdR-accessible pour un nombre ?
+Rappels : 
+x2 : inverse statuts 11 13
+x3 : inverse statut 7 
+x5 : inverse statuts 7 13
+x17 : inverse statuts 7 11
+x19 : inverse statuts 7 11 13
+x23 : n'inverse rien
+x29 : inverse statut 11
+x31 : inverse statuts 7 13
+x37 : inverse statut 13 (1001 n'a pas de DE 703)
+x41 : inverse statuts 7 11 13
+x43 : inverse statut 11
+x47 : inverse statuts 7 13
+x53 : n'inverse rien
+x59 : inverse statuts 7 13
+x61 : inverse statuts 7 11
+x67 : inverse statut 13
+x71 : inverse statut 13
+x73 : inverse statuts 7 11 13
+x79 : inverse statut 11
+x83 : inverse statuts 7 11 13
+x89 : inverse statuts 7 13
+
+x6 : inverse statuts 7 11 13
+x10 : inverse statuts 7 11
+x15 : inverse statuts 13
+x34 : inverse statuts 7 13
+x38 : inverse statut 7
+x46 : inverse statuts 11 13
+x51 : inverse statut 11
+x57 : inverse statuts 11 13
+x58 : inverse statuts 13
+x62 : inverse statuts 7 11

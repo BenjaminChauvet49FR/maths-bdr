@@ -1,0 +1,79 @@
+93093, s17 :
+93092+1
+90593+2500
+85697+7396
+68+93025
+
+Quand même... 74,73,71 et 2 au carré avec 17.
+
+Sinon les paires pour bdr-17:
+429 = 425+4=68+361
+217 = 153+64
+1001 = 425+576 = 272+729
+93 = 68+25
+
+2821 = 1377+1444 = 
+33 = 17+16
+
+
+Et pourquoi pas l'inverse, une simple paire de nombres dont le produit soit 2-bdr-17 ?
+En fait je crois que les 6 paires de nombres qui ne contiennent pas 13 sont bdr-17 :
+21 = 17+4
+33 = 17+16
+77 = 68+9
+93 = 68+25
+217 = 153+64
+341 = 17+324
+
+=====
+
+Avec 19 :
+4301 = 76+4225 = 1900+2401
+--->
+23 = 19+4
+187 = 171+16
+
+
+====
+(congrus à 5 mod 8 c'est mieux pour trouver des carrés)
+Avec 13 :
+49 = 13+36
+121 = 117+4
+289 = 208+81 (17 ça marche aussi)
+361 = 325+36
+961 = 637+324
+3481 = 117+3364
+
+(13a2+b2 = c2 mais c ne doit pas être sous la forme... je sais pas si c'est possible car autant ça l'était avec 21 (336+25 = 361 et 336 = 14*24) autant 13 est premier et ça change tout !)
+
+209 = 208+1 = 13+196
+341 = 52+289 = 325+16
+589 = 13+576 = 468+121
+
+217 = 117+100 = 208+9
+
+77 = 13+64 = 52+25
+413 = 13+400 = 52+361
+649 = 325+324 = 208+441
+
+Multiples de 17 :
+1309 = 
+7021 = 2809+4212
+10013 = (oui bon osef un peu)
+
+Pas multiples de 17 :
+7*11*19*31 = 45353 (oui mais n'importe quelle paire de nombres marche alors ça devrait marcher)
+10201+35152
+et... ?
+
+===
+
+
+33 :
+49 (33+16) (11*3)
+361 (297+64) (11*27)
+529 = 1+528 (24*22)
+1849 = 1024+825 (11*75)
+841 = 825+16
+1681 = 1617+64 (33 -> 49)
+10201 = 5577 + 4624 (33 -> 169)

@@ -1,0 +1,3 @@
+Si n²+bp²=2k = (k+l)+(k-l) avec l = k-n² ou l = k²-bp² (et donc -l = opposé de l'autre valeur)
+Alors : k²-l² = (k+l)(k-l) = bn²p², et donc b(np)²+l²=k²
+

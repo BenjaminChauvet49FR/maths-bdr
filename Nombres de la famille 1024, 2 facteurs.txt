@@ -1,0 +1,94 @@
+95
+111 
+183
+295
+583
+799
+943
+
+Exemples avec 799 :
+920 : 3680 (2303+1377)
+808 : 3232 (1175+2057)
+800 : 200 (47+153) - 3200 (1,49) : 12800 (3807+8993)
+
+3 facteurs avec 95 :
+264 : (1,13) (7;1)
+17424 : (13,37) (7,113) (59;1) (17;29)
+1056 : (1,31) (5;7)
+278784 : () () (179;79) (103;109) (merci la calculette Google)
+
+Analogie 95 et 111 :
+144/400 (1 découpage)
+19+125/37+363
+
+176/112 (1 découpage)
+171+5/37+75
+
+1521/7225 (1 découpage)
+1445+76/6253+972
+
+2304/6400 (1 découpage)
+2299+5/6253+147
+
+2704/4624 (1 découpage)
+2299+405/4477+147
+
+6864/9520 (2 découpages)
+19+6845/4477+5043
+6859+5/6253+3267
+
+10296/23800 (2 découpages : 1,101 5,89 / 3,151 13,41)
+5491+4805/37+23763
+10051+245/4477+      
+
+264/280 (1 découpage)
+19+245/37+243
+(pour les 4 découpages de 8712^2/9800^2 : 5184/40000 ont 2 découpages, et 14641/2401 en ont un...)
+17424/19600 (2 découpages déduits de 264/280)
+19+17405/4477+15123
+15979+1445/19573+27
+
+1056/1120 (1 découpage)
+931+125/37+1083
+278784/313600 (2 découpages déduits de 1056/1120) :
+(2 autres)/(2 autres)
+
+1144/952 (1 découpage)
+19+1125/925+27
+
+429/595 (1 découpage)
+304+125/592+3
+
+1859/2023 (1 découpage - permet de s'assurer de la symétrie entre 3 et 13/5 et 17 ... du moins en l'absence de multiples de 2)
+1539+320/148+1875
+
+864/4000 (0 découpage)
+19+845/1813+2187
+
+296/184 (0 découpage)
+171+125/147+37
+
+Piège :
+1184/736 (1 découpage - 0 découpage embusqué) 
+
+976/1072 (1 découpage)
+
+
+121/49 :
+76+45/37+12
+
+3721/4489
+76+3645
+
+671/469 (1 découpage) :
+171+500/37+432
+
+9699/14329 (1 découpage : 1,98/8,85)
+19+9680/13357+972
+
+Correspondance :
+3/5 (chanceux d'ordre 8)
+13/17,29 (chanceux d'ordre 8 ; pour 95 : 28561=27436+1125, d'où le découpage classique (les nombres du découpage embusqué sont sympas, aucun facteur à la puissance 1) )
+11,61/7,67,73 (chanceux d'ordre 4)
+37/23 (pour 111/115... et pour le *8 aussi)
+53 (1696 3,29)/(424 19+405) / 89 (2848 pour le découpage, 712 pour l'embusqué)

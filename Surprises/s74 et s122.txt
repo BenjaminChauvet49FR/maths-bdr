@@ -1,0 +1,20 @@
+Jusqu'où va le niveau de similitude avec s47 ?
+Plans s74 : 
+3 13 29 41  
+5 11 31
+
+75 750, 90 270
+99 297, 
+78 2106, 110 6875 (7,57), 
+...
+330 
+495 et 990 : x (3 "seul de son plan")
+825 (2,23) 3630 (7,2)
+
+2145 : 4,31 & 2,43
+6435 : 7,53 
+21450 : 17,8 
+
+(je crois que la similitude est assez identique mais je suis pas tout à fait sûr... reste à déterminer les structures. En tout cas, pas d'histoires de 0/3/6/8/10... contrairement à un nombre === 8
+
+Plans s122 :

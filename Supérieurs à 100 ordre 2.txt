@@ -1,0 +1,22 @@
+Voici la liste des nombres non-premiers supérieurs à 100 d'ordre seulement 2 (éventuellement semi-ordre), enfin en apparence :
+
+2 facteurs :
+133
+177
+190 
+217 (2)
+253
+322 (2)
+
+3 facteurs :
+105
+165
+210 
+273
+345
+357
+385
+462
+
+Et la liste des nombres non-premiers supérieurs à 100 de semi-ordre 2, encore en apparence :
+193

@@ -1,0 +1,54 @@
+Bdr 29 :
+125 (116+9)
+225 (29+196)
+729 (725+4)
+et pourquoi pas 405 ? (116+289)
+
+Bdr 11 :
+Je savais que 27 et 125 étaient bdr 11. Mais 45 et 75...
+45=44+1
+75=11+64
+
+Bdr 17 :
+81 et 2401 OK. 441 l'est doublement.
+189 : 68+121
+1029 : 68+961
+Et 14641 (1089 et 5929 sont 2-bdr 17).
+297 : 272+25
+3993 : 272+3721
+3773 : 2873+900 (et 3757+16, ça pourra servir quand je me pencherai sur les nombres bdr 13)
+9317 : 8993+324
+
+169 et 2401 sont bdr-17 alors 637 ? 
+153+484, 612+25
+
+81 et 28561 sont bdr-17, donc...
+351 : NON !
+(ne pas oublier que 529 et 361 sont bdr-21 mmais pas 437. C'est une affaire de congruences... modulo 4 ? Ca expliquerait pourquoi ça marche pour 637 mais pas 4459. Au fait...)
+8281 = ...
+Oui mais : 1521 n'est pas bdr-17 non plus. Pourtant 28561 l'est... En fait il faut voir 13 et 49 comme congrus mod 4 mais pourquoi pas 9 et 169 ou 49 et 169 ? 
+C'est parce que ce sont des carrés ? Hmmm...
+161 : 17+144 et ce nombre n'est pas davantage bdr-17. 
+Mais j'en déduis surtout que pour 279841 c'est bon... et donc pour 7889, 25921 2x et 85169, non ? 
+Allez au boulot. 
+25921=25857+64=9792+15129
+Bon et 64009 ?
+153+100=253
+61200+2809 Et....... ? 
+(81+425 = 56 : 34425+29584)
+69 ?
+68+1=69
+272+4489 (l'évident) Et...... ? 2057+2704
+621=425+296
+36501=16337+20164
+279841=(fallait viser les nombres sous la forme 17*n2 ou 2*17n2 autour de 529 : 306,272,153... puis 544, 612, 833.)
+92416+187425
+
+30613=29988+625
+133837=..;
+
+
+===
+bdr 15 :
+5491=3375+2116 et 15+5476
+6137= RIEN !

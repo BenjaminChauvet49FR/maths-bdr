@@ -1,0 +1,8 @@
+abcd o efghij 
+aefg o bcdhij 
+ahij o bcdefg 
+Les 126 découpages en 5/5 sont présents ?
+aWXYZ : (WXYZ = 4 facteurs différents parmi bcdefghij. 3 groupes bcd, efg, hij)
+Si WXY appartient au même groupe que bcd, 
+
+(en fait il manque les 27 a(2 parmi (2 parmi bcd)(2 parmi efg)(2 parmi hij))

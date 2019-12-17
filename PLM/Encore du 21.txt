@@ -1,0 +1,15 @@
+"Comme biquadratique mais en face de 21 se trouve un sqrt(2) (abrégé en s2)
+
+2542 = 2541+1 et 1701+841
+1271 = 21+1250 et 1029+242
+
+Généralisons un peu :
+190 = 189+1 et 21+169
+95 = 21+74 ??? 84+11 ??? 42+53 ??? Etait-ce un coup d'épée dans l'eau ?
+
+1054 = 525+529 et 1029+25
+527 = 525+2 et 189+338 (sérieux...)
+
+1702 = 1701+1 = 21+1681
+851 n'est pas bdr-21-2 (mais est 2-bdr-7 avec 847+4 et... la flemme de chercher. Tiens, 175+676)
+

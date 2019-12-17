@@ -1,0 +1,189 @@
+52909780 o 4453 (test de ab o cd/efghi )
+(1467,3467) o (14,27) = (48538+-39609,390222-+93609)=(88147,296613)&(8929,483831) (3212)&(2684) 
+Donc tout laisse à penser que ab o cd(5) = acd(9) & bcd(9)
+=====
+
+Attention : tout ce qui suit relève de la pure hypothèse et sera peut-être vérifié un jour !
+
+Ordre 10 : 171 découpages
+126 découpages associés à des oppositions : abcde/ abcdf/ abcdg/ ... aghij/
+45 découpages associés à des paires de facteurs : Sab, Sac, Sad, ... Sij
+
+Voyons ce que ça donneRAIT : 
+Les 50 découpages associés à 
+abcde o fghij ()
+(a) o (f) : Saf & aghij/ ?
+(b) o (i) : Sbi & acdei/ ?
+
+Les 66 découpages associés à 
+abcd o efghij 
+(4) ab/ o (6) efg/ : abefg/ & abhij/ ?
+(4) ab/ o (6) spécial : Sab & Scd, Sac & Sbd, Sad & Sbc
+
+Les 42 découpages associés à 
+abc o defghij 
+(3) abc o (7) de : abcde/ & Sde ?
+
+Les 86 découpages associés à 
+ab o cdefghij
+ab o (8) cdef/ : acdef/ & bcdef/ ?
+ab o (8) Sc : Sac & Sbc ?
+
+======
+
+Ordre 11 : 341 découpages
+330 découpages associés à 4 parmi 11 : abcd, abce, abcf, ...
+11 découpages associés chacun à un facteur : Sa, Sb, ...
+
+Voyons ce que ça donnerait :
+Les 110 découpages associés à : 
+abcde o fghijk
+(a) o (6)fgh/ : afgh & aijk
+(a) o (6)Spécial : Sa & bcde
+
+Les 126 découpages associés à :
+abcd o efghijk
+(4) ab/ o (7) ef : abef & cdef
+
+Les 86 découpages associés à :
+abc o defghijk
+abc o (8)defg/ : defg & hijk
+abc o (8)Sd : abcd & Sd
+
+Les 170 découpages associés à :
+ab o cdefghijk :
+ab o (9)cde : acde & bcde
+ab o (9)Spécial : Sa & Sb
+
+======
+
+Ordre 12 : 683 découpages
+462 découpages associés à des oppositions (665280/720/2) : abcdef/, abcdeg/, ...
+220 découpages associés à des triplets (1320/6) : abc, abd ...
+1 découpage très spécial : Spécial
+
+Voyons ce que ça donnerait :
+Les 242 découpages associés à abcdef o ghijkl (6 o 6) :
+abc/ o ghi/ : abcghi/ & abcjkl/
+abc/ o (ghijkl)Spécial : abc & def OU BIEN ghi & jkl
+(abcdef)Spécial & (ghijkl)Spécial : abcdef / Spécial
+
+Les 210 découpages associés à abcde o fghijkl (5 o 7) :
+(a) o (7)fg : afg & ahijkl/
+
+Les 258 découpages associés à abcd o efghijkl (4 o 8) :
+ab/ o efgh/ : abefgh/ & abijkl/
+ab/ o Se : abe & cde
+
+Les 170 découpages associés à abc o defghijkl (3 o 9) :
+abc o def : def & abcdef/
+abc o (9)Spécial : abc & Spécial
+(pour abc o spécial, je ne vois que (12)abc & (12)Spécial, mais pour abc o (9)def ça peut être abc & abcdef/, def & abcdef/, Spécial & abcdef, etc...)
+
+Les 342 découpages associés à ab o cdefghijkl (2 o 10) :
+ab o cdefg/ : acdefg/, bcdefg/
+ab o Scd : abc, abd
+
+======
+
+Ordre 13 : 1365 découpages
+1287 découpages associés à des groupes de 5 (154440/120) : abcde, abcdf, ...
+78 découpages associés à des couples : ab, ac...
+Voyons ce que ça donnerait :
+
+Les 462 découpages associés à abcdef o ghijklm (6 o 7) : 
+abc/ o gh : abcgh & defgh
+(6)Spécial & gh : ijklm & gh
+
+Les 430 découpages associés à abcde o fghijklm (5 o 8) :
+(a) o fghi/ : afghi & ajklm
+(a) o Sf : af & bcdef
+
+Les 510 découpages associés à abcd o efghijklm (4 o 9) :
+ab/ o efg : abefg & cdefg
+ab/ o Spécial : ab & cd
+
+Les 342 découpages associés à abc o defghijklm (3 o 10) :
+abc o defgh/ : defgh & ijklm
+abc o de : abcde & de 
+
+Les 682 découpages associés à ab o cdefghijklm (2 o 11) :
+ab o cdef : acdef & bcdef
+ab o Sc : ac & bc
+
+======
+
+Ordre 14 : 2731 découpages
+Plusieurs hypothèses possibles sur la répartition :
+7 parmi 14 = 3432 (pour les oppositions : 1716)
+6 parmi 14 = 3003
+5 parmi 14 = 2002
+4 parmi 14 = 1001
+3 parmi 14 = 364
+2 parmi 14 = 91
+Je tente : 
+1716 découpages associés à des oppositions : abcdefg/
+1001 découpages associés à des groupes de 4 : abcd
+14 découpages associés à un facteur
+
+Les 882 découpages associés à abcdefg o hijklmn (7 o 7) :
+ab o hi : abjklmn/ & abhi
+
+Les 946 découpages associés à abcdef o ghijklmn (6 o 8) : 
+abc/ o ghij/ : abcghij/ & defghij/
+(6)abc/ o (8)g : abcg & defg
+(6)Spécial o (8)ghij/ : ghij & klmn
+(6)Spécial o (8)g : g & hijklmn/
+
+Les 850 découpages associés à abcde o fghijklmn (5 o 9) : 
+(a)o(9)fgh : afgh & /aijklmn ( ou a ?)
+(a)o(9)Spécial : a & bcde
+
+Les 1026 découpages associés à abcd o efghijklmn (4 o 10) : 
+ab/ o efghi/ : abefghi/ & cdefghi/
+ab/ o (10)ef : abef & cdef
+
+Les 682 découpages associés à abc o defghijklmn (3 o 11) :
+abc o (11)defg : abcdefg/ & defg
+abc o (11)d : abcd & d
+
+Les 1366 découpages associés à ab o cdefghijklmn (2 o 12) :
+ab o cdefgh/ : acdefgh/ & bcdefgh/
+ab o cde : acde & bcde
+ab o Spécial : a & b
+
+====
+
+Envie de généraliser (lorsque j'ai commencé à faire les 850 découpages de 5 o 9) :
+Pour n >= 1 :
+A l'ordre 3n, il y a un découpage associé à aucun facteur - appelé le découpage spécial, puis des découpages associés à des groupes de 3 si ordre >= 2*3, puis de 6 si ordre >= 2*6...  
+A l'ordre 3n+1, il y a des découpages associés à des groupes de 2, puis des groupes de 5 si ordre >= 2*5, puis des groupes de 8 si ordre >= 2*8...
+A l'ordre 3n+2, il y a des découpages associés à chaque facteur, puis à chaque groupe de 4 facteur si ordre >= 2*4...
+Pour tout ordre 2k, les découpages associés aux groupes de k sont en fait associés aux oppositions (à l'ordre 6, un groupe "standard" est associé à abc/def communément abrégé en abc/, à l'ordre 8 les 35 groupes "standards" ont également ces paires...)
+
+Voyons si c'est viable à l'ordre 15 (5461) :
+1 DS
+455 découpages associés à groupes de 3 
+5005 découpages associés à groupes de 6 
+
+Ordre 16 (10923) : 
+120 découpages associés à des groupes de 2
+4368 associés à des groupes de 5
+6435 associés à des oppositions de groupes de 8
+
+Ordre 17 (21845) : 
+17 associés à des facteurs
+2380 associés à des groupes d'ordre 4
+19448 associés à des groupes d'ordre 7
+
+Ordre 18 (43691) :
+1 DS
+816 découpages associés à des groupes de 3
+18564 associés à des groupes de 6
+24310 associés à des oppositions de groupes de 9
+
+Et à l'ordre O, quels découpages obtient-on avec les ordres k et O-k ?
+Voyons voir (toutes les congruences en (=0) (=1) (=2) sont mod 3) :
+O-k (=0) et k (=0) : 
+Spécial o a1b1c1a2b2c2... : 
+Oui bon, trop compliqué !

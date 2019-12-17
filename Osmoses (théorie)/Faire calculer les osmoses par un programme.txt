@@ -1,0 +1,89 @@
+Avec leurs associations sinon c'est pas marrant !
+
+Exemple :
+19 - 4.5.7.11.17.43.47.61.73
+On travaille sur 4.5.7.11.17.43.47 (ordre 7)
+...
+On travaille sur 4.5.7.11.17.43.61 (ordre 7)
+...
+On travaille sur 4.5.7.11.17.43 (ordre 6)
+...
+Calcul primaire 61.73 (2)
+On confronte 4.5.7.11.17.43.47 o 61.73 (7 o 2) (21 paires de découpages)
+Calcul primaire 47.73 (2)
+On confronte 4.5.7.11.17.43.61 o 47.73 (7 o 2) (21 paires de découpages)
+On déduit les découpages issus des confrontations à 61.73 et à 47.73 (63 découpages identifiés)
+Calcul primaire 47.61.73 (3)
+On confronte 4.5.7.11.17.43 o 47.61.73 (6 o 3) (11 paires de découpages)
+On déduit en confrontant 4.5.47 et les paires de découpages de 4.5.7.11.17.43 (22 découpages identifiés)
+Voici la liste des 85 découpages de 4.5.7.11.17.43.47.61.73 : (...)
+
+On travaille sur 4.5.7.11.17.43.47 (ordre 7)
+On travaille sur 4.5.7.11.17 (ordre 5)
+...
+On travaille sur 4.5.7.11.43 (ordre 5)
+...
+On travaille sur 4.5.7.11 (ordre 4)
+...
+Calcul primaire 43.47 (2)
+On confronte 4.5.7.11.17 o 43.47 (5 o 2) (5 paires de découpages)
+Calcul primaire 17.47 (2)
+On confronte 4.5.7.11.43 o 17.47 (5 o 2) (5 paires de découpages)
+On déduit les découpages issus des confrontations à 43.47 et à 17.47 (15 découpages identifiés)
+Calcul primaire 17.43.47 (3)
+On confronte 4.5.7.11 o 17.43.47 (4 o 3) (3 paires de découpages)
+On déduit en confrontant 4.5.17 et les paires de découpages de 4.5.7.11 (6 découpages identifiés)
+Liste établie !
+
+On travaille sur 4.5.7.11.17.43.61 (ordre 7)
+On travaille sur 4.5.7.11.17 (ordre 5) 
+Déjà fait !
+On travaille sur 4.5.7.11.43 (ordre 5)
+Déjà fait !
+On travaille sur 4.5.7.11 (ordre 4)
+Déjà fait !
+Calcul primaire 43.61 (2)
+On confronte (cf. ci-dessus)
+Calcul primaire 17.61 (2)
+On confronte (cf. ci-dessus)
+On déduit (cf. ci-dessus)
+Calcul primaire 17.43.61 (3)
+On confronte (cf. ci-dessus)
+On déduit en confrontant (cf. ci-dessus)
+Liste établie !
+
+On travaille sur 4.5.7.11.17.43 (ordre 6)
+On travaille sur 4.5.7.11 (ordre 4)
+Déjà fait !
+On travaille sur 4.5.7.17 (ordre 4)
+...
+Calcul primaire 17.43 (2)
+On confronte (cf. ci-dessus)
+Calcul primaire 17.43 (2)
+On confronte (cf. ci-dessus)
+On déduit (cf. ci-dessus)
+Calcul primaire 11.17.43 (3)
+Calcul primaire 4.5.7 (3)
+On confronte 4.5.7 o 11.17.43 (1 paire de découpages)
+On déduit en confrontant 4.5.11 o 7.17.43 (2 découpages identifiés)
+
+On travaille sur 4.5.7.11.17.47 (ordre 6)
+(similaire à ci-dessus)
+
+On travaille sur 4.5.7.11.17
+4.5.7 o 11.17
+4.5.11 o 7.17
+4.7.17 o 5.11
+
+
+
+
+
+
+(7,1) : 4,5,7,11,17,43,47
+(7,2) : 4,5,7,11,17,43,61
+(6,1) : 4,5,7,11,17,43
+(5,1)
+(5,2)
+(4,1)
+(4,2)
