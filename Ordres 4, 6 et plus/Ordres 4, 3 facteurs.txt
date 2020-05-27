@@ -1,0 +1,29 @@
+Multiples de 30 :
+J'imagine que si un nombre admet un découpage croisé par un carré, les 2 facteurs de part et d'autre du découpage seront toujours les mêmes.
+
+210 - ordre 2...
+390 - 39/10 (facteurs d'ordre 4 : 7,17,19... 39+10 = 49 ; 39+250 = 289 ; 351+10 = 361 ...) (et 2 facteurs différents : 119 = 104+15 = 54+65 ; )
+	Parfois un produit de 2 facteurs est découpable par le nombre découpage : il admet également un découpage croisé selon les mêmes facteurs que les découpages des carrés :
+	391 = 390+1 = 351+40 ; 1561 = 1560+1 = 351+1210
+510 - 34/15 (7,13,43...)
+570 - 30/19
+690 - 115/6
+870 - 145/6
+1110 - 111/10 (11,19...)
+1290 - 129/10
+1410 - 235/6 (17,83, ...) (AH ! Ordre 8 pour 11 et 43 ? Je veux dire... 1419 (473x3) alors que 121 n'est pas découpable même croisé. Tiens, 14641 = 235+14406)
+1590 - Bon, ordres 4 pour chaque nombre mais... : 169 = 159+10 ; 289 = 265+24 ; ... Et 121 ?
+	(Gang 159/10 : 13,37,43 Gang 265/6 : 17,19 Gang 106/15 : 11, ... et 48841 = 106+48735 au fait) (559 = 424+135 = 265+294) (1591 = 1+1590...) (323 = 270+53 = 318+5)
+
+========
+
+2 fois 3 facteurs, presque tous d'ordre 4
+858 - 286/3 (17,23,31,19,37) (mais 59 et 61 sont d'ordre 2, cf. 42067 et 42883 qui possèdent tous deux 858 ET 42042 comme piliers de découpages)
+1122 - 33/34 (13,29,31...)  (377 = 374+3 = 275+102) (899 = 833 + 66 = 561+338)
+1870 - 55/34 (19,23,41...) (437 = 187+250 = 85+352) (943 = 935+8 = 110+833) (779 = 374+405 = 680+99)
+2470 - 26/95 (11,37,67...) (Oui mais... 95 + 234 = 329. Et c'est le seul découpage croisé de ce nombre. Conclusion ? Ordre 8 pour 7 et 47.... !) (2401 = 2375+26)
+2002 - 22/91
+1302 - 186/7 (19,37,41)
+2170 - 155/14 (13,29,43,137,...) (18769 = 18755+14)
+
+=========

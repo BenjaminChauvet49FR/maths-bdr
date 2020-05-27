@@ -1,0 +1,5 @@
+A propos du nombre 121693 entièrement conservé par 3
+
+121693 : 2 : conserve 23 ; 5 : conserve 11 ; 7 : conserve 37 ; 17 : conserve 13 ; 19 : change les 4
+
+Je partais du nombre 7 qui accède à tous sauf 13, il faut donc 3 nombres qui conservent tout sauf 13. D'où la XXX par 70, d'où 10.

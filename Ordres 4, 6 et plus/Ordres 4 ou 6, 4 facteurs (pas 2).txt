@@ -1,0 +1,97 @@
+1155 : ordre 6
+1365 : ordre 2
+1785 : ordre 2
+2145 : ordre 4 (33/65 : 7,29,...)
+3003 : ordre 6
+3705 : ordre 4 (57/65)
+5005 : ordre 4 (715/7 : 19,23,59)
+8778 : ordre 6 
+2145 et 3705 : que des nombres non-conservés par 2 ET deux nombres ===1 mod 4 et deux === 3 mod 4.
+Du coup, si j'osais ? 
+4785 : NON !
+
+3705 :
+17 : 578 = 513+65 ; 29 : 1682 = 57+1625
+43 : 3698 = 513+3185 ; 59 : 6962 = 6897+65
+47 : 4418 = 2793+1625 ; (61 : ordre 2)
+71 : 10082 = 6897+3185
+73 : 10658 = 7865+2793
+109 : 23762 = 20577+3185
+107 : (ordre 2)
+79 : 12482 = 7865+4617
+
+493 = 208+285 ; 986 = 741+245 (57 solidaire)
+731 = 380+351 ; 1462 = 247+1215 (2 vs 2)
+1247 = 1235+12 ; 2494 = 195+2299 (65 solidaire)
+799 = 19+780 ; 1598 = 1235+363 (65 solidaire)
+1363 = 988+375 ; 2726 = 2375+351 (2 vs 2)
+2021 = 1280+741 ; 4042 = 285+3757 (57 solidaire)
+1003 = 988+15 ; 2006 = 1911+95 (2 vs 2)
+1711 = 931+780 ; 3422 = 1235+2187 (65 solidaire)
+2537 = 912+1625 ; 5074 = 3705+1369 (en phase)
+2773 = 2565+208 ; 5546 = 741+4805 (57 solidaire)
+1207 = 247+960 ; 2414 = 2375+39 (2 vs 2)
+1241 = 741+500 ; 2482 = 2197+285 (57 solidaire)
+1853 = 228+1625 ; 3706 = 3705+1 (en phase)
+3053 = 260+2793 ; 6106 = 3705+2401
+4189 = 3705+484 ; 8378 = 7865+513
+3713 = 3648+65 ; 7426 = 3705+3721 (en phase)
+
+4 familles : 17 109 | 43 59 71 | 29 73 | 47 79
+(Accède à 3/13 ou à 5/19 | accède à 13 ou à 3/5/19 | Accède à tous ou à aucun | Accède à 3 ou à 5/13/19 ... pourquoi pas 79 ?)
+-----
+4785 (hé ça se tente) :
+
+799 = ... ; 1598 = 1595+3 (145 solidaire)
+Non je déconne !
+
+Bref : 
+578 = ... purée c'est pas avec 145/33 en tout cas ! 
+9826 = 4785 + 5041 (ben voilà !)
+
+2ème chance : 6105
+4625+33 = 4658
+
+-----
+
+
+-----
+8778 :
+(13 : 1672+525 ; 23 : 2850+9317 ; 29 : 20000+4389 ; 37 : 40678+9975 ; 41 : 68096+825 ; 73 : 78078+310939 (non je déconne) 19/462
+(comment j'y suis arrivé ? J'ai regardé le découpage du produit du nombre par 13. 37*13 = 481 = 19+462 ; 13 est à 418/21 ; appliquer un 462/19 et ça donne : 37 est à 22/399
+
+-----
+
+Au sujet de 1785 :
+on peut séparer les facteurs d'ordre 4 en 4 catégories : 
+-ceux qui accèdent à 7 ET 17 et qui ont le même statut d'accès à 3 et 5
+-ceux qui accèdent à 7 ET 17 et qui ont des statuts différents d'accès à 3 et 5
+-ceux qui accèdent pas à 7 ni à 17 et qui ont des mêmes statuts d'accès à 3 et 5
+-ceux qui accèdent pas à 7 ni à 17 et qui ont des statuts différents d'accès à 3 et 5
+Ca donne ça :
+13 157 ; 89 101 | 47 83 ;  | 29 ; 37 | 23 ; 79
+Si on multiplie par 2 un facteur qui a certains accès d'un côté du point virgule, on obtient un nombre qui a les mêmes accès qu'un nombre de l'autre côté
+(26 a les mêmes accès que 89 ou 101) (c'est dû au fait que les statuts d'accès à 3 et 5 sont changés par 2 et ceux de 7 et 17 sont conservés.)
+
+D'où : Statuts à 17 et 7 identiques exigés.
+2145 (33/65) : "mêmes statuts à 3 et à 13 exigés" pour 7,29,31,37, (pas 19 car 2145 n'y accède pas. C'est ainsi.)
+3705 (57/65) : "mêmes statuts à 5 et à 19 exigés" pour 17,29,43,47,59,71,73,103,107
+5005 (715/7) : "mêmes statuts à 5 et à 11 exigés" pour 19,23,47,61
+
+Allez on poursuit :
+1995 : ordre 6 ? 
+2310 : ordre 4 ? (154/15 : 13,17,23,37,67,89,109,137 : (7 11 ; 3 7 11 ; 3) 37 67 89 (- ; - ; 3 5 7) 109 137 () (11881 = 7546+4335 ; 18769 = 18634+135) (Du coup : je sais pas quels facteurs accessibles sont d'ordre 4)
+3990 : ordre 6 ? (pour 4399 et... c'est tout ?)
+4389 : ordre 6 ? (5 : 250 = 231+19)
+5565 : ordre 6 ? (11 : 15/371 ,23 : 1/5565 (P),43 7/795, 47 ,61)
+6045 : ordre 6 ? (11,19,29)
+6405 : ordre 6 ? (13,17,29)
+6510 : ordre 6 ? (13,
+7315 : ordre 6 ? (43 : 95/77 ; )
+7410 : ordre 6 ? (11,17,37 ) (1331 = 1235+96, 187 = 130+57, 407 = 95+312)
+8265 : ordre 6 ?
+21945 : ordre 6 ? (13 : 4394 = 4389+5 ; 17 : 4913 = 3773+1140)
+43890 : ordre 6 ? GROS DOUTE avec 29
+
+30030 : ordre 4 ? (231/130 : 19,47,59,107,149) (1121 = 1001+120 = 770+351 ; le passage de 231/130 a fait son effet)
+51870 : ordre 4 ? (399/130 : 23,61,)
